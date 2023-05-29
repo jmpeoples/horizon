@@ -24,6 +24,11 @@ import image5 from '@/images/photos/image-5.jpg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
+import { Section } from '@/components/Section'
+import catalogWorks1 from '@/images/photos/datacatalog-works-1.png'
+import catalogWorks2 from '@/images/photos/catalog-works-2.png'
+import catalogWorks3 from '@/images/photos/catalog-works-3.png'
+import catalogWorks4 from '@/images/photos/catalog-works-4.png'
 
 function MailIcon(props) {
   return (
@@ -272,6 +277,21 @@ export default function Home({ articles }) {
         >
           Learn More
         </button>
+
+        <h1 className="mt-64 text-4xl font-bold dark:text-white">
+          Selected Works
+        </h1>
+
+        <Section
+          title={'Data Catalog'}
+          description={
+            'Balyasny portfolio managers, sector data analysts, data managers need to know what data is available, where it lives, and how to access it quickly.'
+          }
+          topLeft={catalogWorks1}
+          topRight={catalogWorks2}
+          bottomLeft={catalogWorks3}
+          bottomRight={catalogWorks4}
+        ></Section>
       </Container>
     </>
   )

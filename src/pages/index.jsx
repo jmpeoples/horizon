@@ -250,6 +250,27 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
+        <title>Josiah Peoples - designer & developer</title>
+        <meta
+          name="description"
+          content="I’m Josiah, a designer and developer based in Austin."
+        />
+      </Head>
+      <Container className="mt-9">
+        <p className="mt-24 text-4xl font-bold dark:text-white">
+          {' '}
+          I’m a designer and a developer. Let me help you bridge the gap between
+          design & tech.
+        </p>
+      </Container>
+    </>
+  )
+}
+
+export function HomeOrigin({ articles }) {
+  return (
+    <>
+      <Head>
         <title>
           Spencer Sharp - Software designer, founder, and amateur astronaut
         </title>

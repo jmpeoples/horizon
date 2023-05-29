@@ -257,11 +257,21 @@ export default function Home({ articles }) {
         />
       </Head>
       <Container className="mt-9">
-        <p className="mt-24 text-4xl font-bold dark:text-white">
+        <p className="mt-24 text-4xl italic dark:text-white">
+          {' '}
+          Hi, I’m Josiah Peoples
+        </p>
+        <p className="text-4xl font-bold dark:text-white">
           {' '}
           I’m a designer and a developer. Let me help you bridge the gap between
           design & tech.
         </p>
+        <button
+          type="button"
+          className="mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400"
+        >
+          Learn More
+        </button>
       </Container>
     </>
   )

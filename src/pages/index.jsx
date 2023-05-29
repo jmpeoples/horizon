@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-
+import { motion } from 'framer-motion'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
@@ -29,6 +29,7 @@ import catalogWorks1 from '@/images/photos/datacatalog-works-1.png'
 import catalogWorks2 from '@/images/photos/catalog-works-2.png'
 import catalogWorks3 from '@/images/photos/catalog-works-3.png'
 import catalogWorks4 from '@/images/photos/catalog-works-4.png'
+import { introHeaderVariants, introWelcomeVariants } from '@/components/Section'
 
 function MailIcon(props) {
   return (
@@ -262,30 +263,82 @@ export default function Home({ articles }) {
         />
       </Head>
       <Container className="mt-9">
-        <p className="mt-24 text-4xl italic dark:text-white">
+        <motion.p
+          className="mt-24 text-4xl italic dark:text-white"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
+        >
           {' '}
           Hi, I’m Josiah Peoples
-        </p>
-        <p className="text-4xl font-bold dark:text-white">
+        </motion.p>
+        <motion.p
+          className="text-4xl font-bold dark:text-white"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
+        >
           {' '}
           I’m a designer and a developer. Let me help you bridge the gap between
           design & tech.
-        </p>
-        <button
+        </motion.p>
+        <motion.button
           type="button"
           className="mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introWelcomeVariants}
         >
           Learn More
-        </button>
+        </motion.button>
 
-        <h1 className="mt-64 text-4xl font-bold dark:text-white">
+        <motion.h1
+          className="mt-64 text-4xl font-bold dark:text-white"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
+        >
           Selected Works
-        </h1>
+        </motion.h1>
 
         <Section
           title={'Data Catalog'}
           description={
             'Balyasny portfolio managers, sector data analysts, data managers need to know what data is available, where it lives, and how to access it quickly.'
+          }
+          topLeft={catalogWorks1}
+          topRight={catalogWorks2}
+          bottomLeft={catalogWorks3}
+          bottomRight={catalogWorks4}
+        ></Section>
+        <Section
+          title={'Expanding Expedia'}
+          description={
+            'The ECP team needed to provide a unified method for employees, vendors and third-party call center agents to configure and request technical services.'
+          }
+          topLeft={catalogWorks1}
+          topRight={catalogWorks2}
+          bottomLeft={catalogWorks3}
+          bottomRight={catalogWorks4}
+        ></Section>
+        <Section
+          title={'The Game'}
+          description={
+            'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
+          }
+          topLeft={catalogWorks1}
+          topRight={catalogWorks2}
+          bottomLeft={catalogWorks3}
+          bottomRight={catalogWorks4}
+        ></Section>
+        <Section
+          title={'Scrape Tracker'}
+          description={
+            'This product Enables all part to be built and tracked throughout the plant. Our department was focus on instruction manuals for assemblies and marketing.'
           }
           topLeft={catalogWorks1}
           topRight={catalogWorks2}

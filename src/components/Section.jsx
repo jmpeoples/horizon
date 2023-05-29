@@ -1,5 +1,44 @@
 import { useId } from 'react'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+
+export const introHeaderVariants = {
+  hide: {
+    opacity: 0,
+    y: 200,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      delay: 0.2,
+      ease: 'easeOut',
+    },
+  },
+  exit: {
+    opacity: 1,
+  },
+}
+
+export const introWelcomeVariants = {
+  hide: {
+    opacity: 0,
+    y: 200,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      delay: 0.4,
+      ease: 'easeOut',
+    },
+  },
+  exit: {
+    opacity: 1,
+  },
+}
 
 export function Section({
   title,
@@ -14,7 +53,14 @@ export function Section({
 
   return (
     <section aria-labelledby={id}>
-      <div id={id} className="mt-52 grid grid-cols-3 gap-12 sm:grid-flow-col ">
+      <motion.div
+        id={id}
+        className="mt-52 grid grid-cols-3 gap-12 sm:grid-flow-col"
+        initial="hide"
+        whileInView="show"
+        exit="exit"
+        variants={introHeaderVariants}
+      >
         <div className="col-span-1">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">{title}</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
@@ -22,7 +68,7 @@ export function Section({
           </p>
           <button
             type="button"
-            className="mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400"
+            className="mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
           >
             Learn More
           </button>
@@ -51,7 +97,7 @@ export function Section({
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

@@ -7,7 +7,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="mb-8 text-center font-light text-gray-500 dark:text-gray-400 sm:text-xl lg:mb-16">
-            Let's talk.
+            {`Let's Talk.`}
           </p>
 
           <div className="flex flex-col items-center">

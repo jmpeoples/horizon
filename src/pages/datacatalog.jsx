@@ -9,6 +9,10 @@ import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import { Container } from '@/components/Container'
+import componentLibrary from '@/images/photos/react-component-library.png'
+import dataScreen from '@/images/photos/Catalog-Search-Details-screen.png'
+import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
+import Contact from '@/components/Contact'
 
 const projects = [
   {
@@ -75,7 +79,7 @@ export default function Datacatalog() {
             </h1>
           </div>
         </section>
-        <section className="mt-48 grid grid-cols-3 gap-12 sm:grid-flow-col">
+        <section className="mt-32 grid grid-cols-3 gap-12 sm:grid-flow-col">
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
               Overview
@@ -96,7 +100,8 @@ export default function Datacatalog() {
                 <li>Lead Designer</li>
                 <li>Visual Designer</li>
                 <li>Software Developer</li>
-                <li>Prototype</li>
+                <li>Figma Prototype</li>
+                <li>Minimum viable product</li>
               </ul>
 
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
@@ -145,6 +150,7 @@ export default function Datacatalog() {
             </p>
           </div>
         </section>
+
         <section className="mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
             Opportunity
@@ -155,45 +161,153 @@ export default function Datacatalog() {
           </p>
         </section>
 
-
         <section className="mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Interviews
           </h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Conducted 5-10 interviews with Sector Data Analyst, Data management managers, Portfolio Mangers and Data sourcing strategist to collect pain point and develop user journey.
+            Conducted 5-10 interviews with sector data analyst, data management
+            managers, portfolio mangers and data sourcing strategist to collect
+            pain points and develop user journey.
           </p>
         </section>
-
 
         <section className="mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Design Process
           </h2>
-          <div className="grid grid-cols-7">
-              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-                <li className="font-bold">Understand</li>
-                <li>Research user pain points</li>
-                <li>Understand business goals</li>
-                <li>Competitive Research</li>
-                <li>Interal Workshop</li>
-                <li>User Survery</li>
-                <li>Collect Google Analytics</li>
-                <li>Journey Map</li>
-                <li>User Persona</li>
-              </ul>
+          <div className="grid grid-cols-7 gap-2">
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Understand</li>
+              <li>Collect pain points</li>
+              <li>Market Research</li>
+              <li>Interal Workshop</li>
+              <li>User Survey</li>
+              <li>Collect Analytics</li>
+              <li>Journey Map</li>
+              <li>User Persona</li>
+            </ul>
 
-              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-                <li className="font-bold">Define</li>
-                <li>2020 - 2022</li>
-              </ul>
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Define</li>
+              <li>Debusiness goals</li>
+              <li>Refine requirements</li>
+              <li>Scope and timelines</li>
+              <li>Create user stories</li>
+            </ul>
 
-              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-                <li className="font-bold">Ideate</li>
-                <li>2020 - 2022</li>
-              </ul>
-            </div>
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Ideate</li>
+              <li>Sketches</li>
+              <li>Sitemap</li>
+              <li>User Flow</li>
+              <li>Whiteboard Meetup</li>
+              <li>Lo-fi Wireframes</li>
+              <li>User testing</li>
+              <li>Track OKRs</li>
+            </ul>
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Design</li>
+              <li>Interaction</li>
+              <li>Hi-Fi Wireframes</li>
+              <li>Figma protoype</li>
+              <li>Track OKRs</li>
+              <li>Developer Handshake</li>
+            </ul>
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Test & Refine</li>
+              <li>A/B Testing</li>
+              <li>Q/A review</li>
+              <li>Analytics review</li>
+              <li>User Survey</li>
+              <li>Track OKRs</li>
+            </ul>
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Launch</li>
+              <li>Release to Prod</li>
+            </ul>
+            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold">Monitor</li>
+              <li>Track OKRs</li>
+              <li>Collect Analytics</li>
+            </ul>
+          </div>
         </section>
+
+        <section className="mt-24">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">Goals</h2>
+        </section>
+
+        <section className="mt-16 grid grid-cols-3 gap-12 sm:grid-flow-col">
+          <div className="col-span-1">
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              1. Discovery
+            </p>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              Search and showcase dataset in-house to teams.
+            </p>
+          </div>
+
+          <div className="col-span-1">
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              2. Easy Access
+            </p>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              Provide widget and table to easily request access to new datasets.
+            </p>
+          </div>
+
+          <div className="col-span-1">
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              3. Clear Usage
+            </p>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              Provide mangers and analysts with usage data of what datasets the
+              team is subscribed to and how much each dataset costs.
+            </p>
+          </div>
+        </section>
+
+        <section className="mt-24">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            Hi-fi Wireframes
+          </h2>
+        </section>
+
+        <section className="mt-16 grid grid-cols-3 gap-12 sm:grid-flow-col">
+          <div className="col-span-1">
+            <Image src={dataScreen} width={700} height={700} />
+          </div>
+
+          <div className="col-span-1">
+            <Image src={dataScreen} width={700} height={700} />
+          </div>
+
+          <div className="col-span-1">
+            <Image src={dataScreen} width={700} height={700} />
+          </div>
+        </section>
+
+        <section className="mt-24">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            Atomic React Component Library
+          </h2>
+        </section>
+
+        <section className="mt-16 grid grid-cols-1 sm:grid-flow-col">
+          <Image src={componentLibrary} width={1460} height={600} />
+        </section>
+
+        <section className="mt-24">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            Data Catalog
+          </h2>
+        </section>
+
+        <section className="mt-16 grid grid-cols-1 sm:grid-flow-col">
+          <Image src={dataScreenHome} width={1460} height={571} />
+        </section>
+        <Contact />
       </Container>
     </>
   )

@@ -52,10 +52,10 @@ export function Section({
   let id = useId()
 
   return (
-    <section aria-labelledby={id}>
+    <section aria-labelledby={id} className="mx-4 lg:mx-0">
       <motion.div
         id={id}
-        className="mt-52 grid grid-cols-3 gap-12 sm:grid-flow-col"
+        className="mt-52 grid sm:grid-flow-row md:grid-cols-3 md:gap-12"
         initial="hide"
         whileInView="show"
         exit="exit"
@@ -68,13 +68,13 @@ export function Section({
           </p>
           <button
             type="button"
-            className="mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
+            className="mb-8 mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
           >
             Learn More
           </button>
         </div>
-        <div className="col-span-2">
-          <div className="grid grid-cols-2 gap-4">
+        <div className="sm:col-span-1 lg:col-span-2">
+          <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-2">
             <Image
               src={topLeft}
               alt=""

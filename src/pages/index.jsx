@@ -30,6 +30,7 @@ import catalogWorks2 from '@/images/photos/catalog-works-2.png'
 import catalogWorks3 from '@/images/photos/catalog-works-3.png'
 import catalogWorks4 from '@/images/photos/catalog-works-4.png'
 import { introHeaderVariants, introWelcomeVariants } from '@/components/Section'
+import Contact from '@/components/Contact'
 
 function MailIcon(props) {
   return (
@@ -264,7 +265,7 @@ export default function Home({ articles }) {
       </Head>
       <Container className="mt-9">
         <motion.p
-          className="mt-24 text-4xl italic dark:text-white"
+          className="mt-24 text-2xl lg:text-4xl italic dark:text-white mx-4 lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -274,7 +275,7 @@ export default function Home({ articles }) {
           Hi, I’m Josiah Peoples
         </motion.p>
         <motion.p
-          className="text-4xl font-bold dark:text-white"
+          className="text-2xl lg:text-4xl font-bold dark:text-white mx-4 lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -286,7 +287,7 @@ export default function Home({ articles }) {
         </motion.p>
         <motion.button
           type="button"
-          className="mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400"
+          className="mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400 mx-4 lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -296,7 +297,7 @@ export default function Home({ articles }) {
         </motion.button>
 
         <motion.h1
-          className="mt-64 text-4xl font-bold dark:text-white"
+          className="mt-64 text-4xl font-bold dark:text-white mx-4 lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -345,6 +346,7 @@ export default function Home({ articles }) {
           bottomLeft={catalogWorks3}
           bottomRight={catalogWorks4}
         ></Section>
+        <Contact />
       </Container>
     </>
   )

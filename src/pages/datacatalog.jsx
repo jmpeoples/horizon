@@ -79,7 +79,7 @@ export default function Datacatalog() {
             </h1>
           </div>
         </section>
-        <section className="mt-32 grid grid-cols-3 gap-12 sm:grid-flow-col">
+        <section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
               Overview
@@ -87,10 +87,10 @@ export default function Datacatalog() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-              Balyasny Portfolio managers, Sector data analysts, data managers
+              Balyasny portfolio managers, sector data analysts, data managers
               need to know what data is available, where it lives, and how to
               access it quickly. The systems and process require knowledge from
-              CRM's, accounting systems, cloud vendor documentation buckets, and
+              CRMs, accounting systems, cloud vendor documentation buckets, and
               third party APIs. Balyasny needed to facilitate Portfolio managers
               and analyst to query datasets and quickly generate new ideas.
             </p>
@@ -111,7 +111,7 @@ export default function Datacatalog() {
             </div>
           </div>
         </section>
-        <section className="mt-24">
+        <section className="mt-24 grid grid-flow-row mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Problem</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
             Vendor documentation, dataset inventory, and accounting systems
@@ -119,8 +119,8 @@ export default function Datacatalog() {
           </p>
         </section>
 
-        <section className="mt-16 grid grid-cols-3 gap-12 sm:grid-flow-col">
-          <div className="col-span-1">
+        <section className="mt-16 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12">
+          <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               1. Ambiguous
             </p>
@@ -130,7 +130,7 @@ export default function Datacatalog() {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               2. Inaccessible
             </p>
@@ -140,7 +140,7 @@ export default function Datacatalog() {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               1. Low visibility
             </p>
@@ -151,7 +151,7 @@ export default function Datacatalog() {
           </div>
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
             Opportunity
           </h2>
@@ -161,7 +161,7 @@ export default function Datacatalog() {
           </p>
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Interviews
           </h2>
@@ -172,12 +172,13 @@ export default function Datacatalog() {
           </p>
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Design Process
           </h2>
-          <div className="grid grid-cols-7 gap-2">
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+          <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-7 lg:gap-2">
+
+            <ul className="mt-12 col-span-2 list-none text-lg text-neutral-400 dark:text-neutral-400">
               <li className="font-bold">Understand</li>
               <li>Collect pain points</li>
               <li>Market Research</li>
@@ -234,16 +235,16 @@ export default function Datacatalog() {
           </div>
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Goals</h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-3 gap-12 sm:grid-flow-col">
+        <section className="mt-16 mx-4 grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               1. Discovery
             </p>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+            <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
               Search and showcase dataset in-house to teams.
             </p>
           </div>
@@ -252,7 +253,7 @@ export default function Datacatalog() {
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               2. Easy Access
             </p>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+            <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
               Provide widget and table to easily request access to new datasets.
             </p>
           </div>
@@ -261,50 +262,50 @@ export default function Datacatalog() {
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               3. Clear Usage
             </p>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+            <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
               Provide mangers and analysts with usage data of what datasets the
               team is subscribed to and how much each dataset costs.
             </p>
           </div>
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Hi-fi Wireframes
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-3 gap-12 sm:grid-flow-col">
-          <div className="col-span-1">
+        <section className="mt-16 grid lg:grid-cols-3 lg:gap-12">
+          <div className="col-span-1 mx-4 mb-4">
             <Image src={dataScreen} width={700} height={700} />
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 mx-4 mb-4">
             <Image src={dataScreen} width={700} height={700} />
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 mx-4 mb-4">
             <Image src={dataScreen} width={700} height={700} />
           </div>
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Atomic React Component Library
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 sm:grid-flow-col">
+        <section className="mt-16 grid grid-cols-1 mx-4">
           <Image src={componentLibrary} width={1460} height={600} />
         </section>
 
-        <section className="mt-24">
+        <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Data Catalog
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 sm:grid-flow-col">
+        <section className="mt-16 grid grid-cols-1 mx-4">
           <Image src={dataScreenHome} width={1460} height={571} />
         </section>
         <Contact />

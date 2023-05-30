@@ -253,7 +253,7 @@ function Photos() {
   )
 }
 
-export default function Home({ articles }) {
+export default function Home() {
   return (
     <>
       <Head>
@@ -293,7 +293,7 @@ export default function Home({ articles }) {
           exit="exit"
           variants={introWelcomeVariants}
         >
-          Learn More
+         Learn More 
         </motion.button>
 
         <motion.h1
@@ -315,6 +315,7 @@ export default function Home({ articles }) {
           topRight={catalogWorks2}
           bottomLeft={catalogWorks3}
           bottomRight={catalogWorks4}
+          pageLink={'/datacatalog'}
         ></Section>
         <Section
           title={'Expanding Expedia'}

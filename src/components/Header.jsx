@@ -8,6 +8,8 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
 
+
+
 function CloseIcon(props) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
@@ -210,27 +212,30 @@ function DesktopNavigation(props) {
   )
 }
 
-function ModeToggle() {
+
+export function toggleMode() {
   function disableTransitionsTemporarily() {
     document.documentElement.classList.add('[&_*]:!transition-none')
     window.setTimeout(() => {
       document.documentElement.classList.remove('[&_*]:!transition-none')
     }, 0)
   }
+  disableTransitionsTemporarily()
 
-  function toggleMode() {
-    disableTransitionsTemporarily()
-
-    let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-    let isSystemDarkMode = darkModeMediaQuery.matches
-    let isDarkMode = document.documentElement.classList.toggle('dark')
-
-    if (isDarkMode === isSystemDarkMode) {
-      delete window.localStorage.isDarkMode
-    } else {
-      window.localStorage.isDarkMode = isDarkMode
-    }
+  let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  let isSystemDarkMode = darkModeMediaQuery.matches
+  let isDarkMode = document.documentElement.classList.toggle('dark')
+  
+  if (isDarkMode === isSystemDarkMode) {
+    delete window.localStorage.isDarkMode
+  } else {
+    window.localStorage.isDarkMode = isDarkMode
   }
+}
+
+
+function ModeToggle() {
+ 
 
   return (
     <button
@@ -286,6 +291,9 @@ function Avatar({ large = false, className, ...props }) {
 }
 
 export function Header() {
+  useEffect(() => {
+    document.documentElement.classList.add('dark')
+  },[])
   function toggleMenu(collapseId) {
     document.getElementById(collapseId).classList.toggle('hidden')
     document.getElementById(collapseId).classList.toggle('flex')

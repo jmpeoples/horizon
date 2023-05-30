@@ -47,6 +47,7 @@ export function Section({
   topRight,
   bottomLeft,
   bottomRight,
+  pageLink,
   children,
 }) {
   let id = useId()
@@ -66,12 +67,13 @@ export function Section({
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
             {description}
           </p>
-          <button
+          <a
             type="button"
+            href={pageLink}
             className="mb-8 mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
           >
             Learn More
-          </button>
+          </a>
         </div>
         <div className="sm:col-span-1 lg:col-span-2">
           <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-2">

@@ -69,6 +69,44 @@ function MoonIcon(props) {
   )
 }
 
+function HorizonIcon(props) {
+  return (
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M21.4377 6.60938C24.0279 7.73071 26.1426 9.67912 27.4284 12.1291C28.7143 14.5792 29.0933 17.3824 28.5023 20.0706C27.9114 22.7588 26.3861 25.1691 24.1814 26.899C21.9766 28.6289 19.226 29.5735 16.3888 29.575C13.962 29.5749 11.5887 28.8844 9.56344 27.5891C7.53819 26.2938 5.9502 24.4509 4.9966 22.2891C4.043 20.1272 3.76577 17.7417 4.19934 15.4285C4.6329 13.1154 5.75817 10.9766 7.43545 9.2775C8.59128 10.841 10.1164 12.114 11.8836 12.9902C11.9146 11.0678 12.383 9.17578 13.2554 7.44894C14.1279 5.7221 15.3829 4.20301 16.9309 3C18.1124 4.5351 19.6576 5.77252 21.4362 6.60793L21.4377 6.60938Z"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M16.3888 25.2107C17.8175 25.2101 19.1926 24.6836 20.2356 23.7376C21.2785 22.7917 21.9114 21.497 22.0059 20.116C22.1004 18.7349 21.6495 17.3707 20.7446 16.2997C19.8396 15.2286 18.5483 14.5308 17.1321 14.3476C15.5817 15.6916 14.5601 17.5146 14.2413 19.5063C13.0845 19.2322 11.9956 18.7376 11.0381 18.0515C10.76 18.871 10.6865 19.7426 10.8236 20.5949C10.9607 21.4472 11.3044 22.2559 11.8266 22.9546C12.3488 23.6532 13.0345 24.222 13.8276 24.6142C14.6206 25.0064 15.4984 25.2108 16.3888 25.2107Z"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M5.32575 23.9257L10.2788 20.2676"
+        stroke="black"
+        stroke-width="2"
+      />
+      <path
+        d="M18.419 15.027L25.6608 9.20769"
+        stroke="black"
+        stroke-width="2"
+      />
+    </svg>
+  )
+}
+
 function MobileNavItem({ href, children }) {
   return (
     <li>
@@ -253,11 +291,7 @@ export function Header() {
       <nav className="bg-white dark:bg-black">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <Link href="/" className="flex items-center">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="mr-3 h-8"
-              alt=""
-            />
+            <HorizonIcon className="h-6 w-6 fill-black transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-white [@media_not_(prefers-color-scheme:dark)]:stroke-white" />
           </Link>
           <button
             data-collapse-toggle="navbar-default"

@@ -219,12 +219,6 @@ export default function Expediaservice() {
           </div>
         </section>
 
-        <section className="mx-4 mt-24">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Hi-fi Wireframes
-          </h2>
-        </section>
-
         <section className="mt-16 grid lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1 mx-4 mb-4">
             <Image src={dataScreen} width={700} height={700} />
@@ -239,11 +233,6 @@ export default function Expediaservice() {
           </div>
         </section>
 
-        <section className="mx-4 mt-24">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Atomic React Component Library
-          </h2>
-        </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
           <Image src={componentLibrary} width={1460} height={600} />

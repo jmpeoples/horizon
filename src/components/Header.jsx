@@ -286,6 +286,10 @@ function Avatar({ large = false, className, ...props }) {
 }
 
 export function Header() {
+  function toggleMenu(collapseId) {
+    document.getElementById(collapseId).classList.toggle('hidden')
+    document.getElementById(collapseId).classList.toggle('flex')
+  }
   return (
     <>
       <nav className="bg-white dark:bg-black">
@@ -299,6 +303,7 @@ export function Header() {
             className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
             aria-controls="navbar-default"
             aria-expanded="false"
+            onClick={() => toggleMenu('mobile-menu')}
           >
             <span className="sr-only">main menu</span>
             <svg
@@ -346,6 +351,24 @@ export function Header() {
                 <ModeToggle />
               </li>
             </ul>
+          </div>
+        </div>
+        <div className="hidden" id="mobile-menu">
+          <div className="space-y-1 px-2 pb-3 pt-2">
+            <a
+              href="#"
+              className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+              aria-current="page"
+            >
+              Works
+            </a>
+            <a
+              href="#"
+              className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >
+              Contact
+            </a>
+            <ModeToggle />
           </div>
         </div>
       </nav>

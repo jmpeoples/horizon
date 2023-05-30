@@ -8,8 +8,7 @@ import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
 import { internalVariant } from '@/components/Section'
 
-
-export default function Datacatalog() {
+export default function Expediaservice() {
   return (
     <>
       <Head>
@@ -20,16 +19,17 @@ export default function Datacatalog() {
         <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
-              Designing the <br />
-              Dataset Catalog
+              Expanding Expedia <br />
+              infrastructure services
             </h1>
           </div>
         </section>
-        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
-           initial="hide"
-           whileInView="show"
-           exit="exit"
-           variants={internalVariant}
+        <motion.section
+          className="mx-4 mt-32 grid grid-flow-row lg:grid-cols-3 lg:gap-12"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={internalVariant}
         >
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
@@ -38,12 +38,12 @@ export default function Datacatalog() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-              Balyasny portfolio managers, sector data analysts, data managers
-              need to know what data is available, where it lives, and how to
-              access it quickly. The systems and process require knowledge from
-              CRMs, accounting systems, cloud vendor documentation buckets, and
-              third party APIs. Balyasny needed to facilitate portfolio managers
-              and analyst to query in-house datasets and quickly generate new ideas.
+              Expedia was in the middle of completely moving all infrastructure
+              to the cloud. The ECP team needed to provide a unified method for
+              employees, vendors and third-party call center agents to configure
+              and request technical services. This product enables orchestration
+              to automate service requests, deploy microservices and customize
+              access management.
             </p>
             <div className="grid grid-cols-2">
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
@@ -51,87 +51,82 @@ export default function Datacatalog() {
                 <li>Lead Designer</li>
                 <li>Visual Designer</li>
                 <li>Software Developer</li>
-                <li>Figma Prototype</li>
-                <li>Minimum viable product</li>
+                <li>Adobe Prototype</li>
               </ul>
 
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">Year</li>
-                <li>2020 - 2022</li>
+                <li>2019 - 2020</li>
               </ul>
             </div>
           </div>
         </motion.section>
-        <section className="mt-24 grid grid-flow-row mx-4">
+        <section className="mx-4 mt-24 grid grid-flow-row">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Problem</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Vendor documentation, dataset inventory, and accounting systems
-            lived in siloed areas run by separate teams.
+            Majority of services provided via ticketing system.
           </p>
         </section>
 
-        <section className="mt-16 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12">
+        <section className="mx-4 mt-16 grid grid-flow-row lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              1. Ambiguous
+              1. Ticket based request only
             </p>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              What are the most valuable datasets in my industry and what
-              datasets do we own in-house?
+              Majority of services provided via ticketing system.
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              2. Inaccessible
+              2. Poor UX
             </p>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            How do I request a new license?
+              Fragmented user experience.
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              1. Low visibility
+              1. No Automation
             </p>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            What data does my team use?
+              Unable to automation to common tasks.
             </p>
           </div>
         </section>
 
-        <motion.section className="mt-24 mx-4"
-           initial="hide"
-           whileInView="show"
-           exit="exit"
-           variants={internalVariant}
+        <motion.section
+          className="mx-4 mt-24"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={internalVariant}
         >
           <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
             Opportunity
           </h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            How might we streamline the most valuable and diverse suite of
-            datasets to the users?
+            How might we add an abstraction layer from ticketing to provide a
+            unified approach to requesting technical services.
           </p>
         </motion.section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Interviews
           </h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Conducted 5-10 interviews with sector data analyst, data management
-            managers, portfolio mangers and data sourcing strategist to collect
-            pain points and develop user journey.
+            Conducted 5-10 interviews with Brand technologists.
           </p>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Design Process
           </h2>
           <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-7 lg:gap-2">
-
             <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
               <li className="font-bold">Understand</li>
               <li>Collect pain points</li>
@@ -165,7 +160,7 @@ export default function Datacatalog() {
               <li className="font-bold">Design</li>
               <li>Interaction</li>
               <li>Hi-Fi Wireframes</li>
-              <li>Figma protoype</li>
+              <li>Adobe protoype</li>
               <li>Track OKRs</li>
               <li>Dev Handshake</li>
             </ul>
@@ -189,41 +184,42 @@ export default function Datacatalog() {
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Goals</h2>
         </section>
 
-        <section className="mt-16 mx-4 grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
+        <section className="mx-4 mt-16 grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              1. Discovery
+              1. Unified platform
             </p>
             <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Search and showcase datasets in-house to teams.
+              Unify complex services, like access management or connectivity.
+              Customized microservices can be deployed and incorporated through
+              the platform.
             </p>
           </div>
 
           <div className="col-span-1">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              2. Easy Access
+              2. Consistent UX
             </p>
             <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Provide component and table to easily request access to new datasets.
+              Enabled all services to use common UI components.
             </p>
           </div>
 
           <div className="col-span-1">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              3. Clear Usage
+              3. Automation Included
             </p>
             <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Provide mangers and analysts with usage data. Expose datasets the
-              team is subscribed to and how much each dataset costs.
+              Ability to deploy services through configuration files.
             </p>
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Hi-fi Wireframes
           </h2>
@@ -243,38 +239,32 @@ export default function Datacatalog() {
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Atomic React Component Library
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
+        <section className="mx-4 mt-16 grid grid-cols-1">
           <Image src={componentLibrary} width={1460} height={600} />
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Data Catalog
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
+        <section className="mx-4 mt-16 grid grid-cols-1">
           <Image src={dataScreenHome} width={1460} height={571} />
-        
         </section>
 
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-           Results
-          </h2>
+        <section className="mx-4 mt-24">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-          Increased dataset onboarding by 50%. Platform facilitated collection, categorization, and distribution of 3,000+ datasets, increasing user engagement by 20%.
+            25% reduction in manual requests.
           </p>
         </section>
-
-
         <Contact />
       </Container>
     </>

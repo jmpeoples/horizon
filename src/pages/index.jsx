@@ -265,7 +265,7 @@ export default function Home() {
       </Head>
       <Container className="mt-9">
         <motion.p
-          className="mt-24 text-2xl lg:text-4xl italic dark:text-white mx-4 lg:mx-0"
+          className="mx-4 mt-24 text-2xl italic dark:text-white lg:mx-0 lg:text-4xl"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -275,7 +275,7 @@ export default function Home() {
           Hi, I’m Josiah Peoples
         </motion.p>
         <motion.p
-          className="text-2xl lg:text-4xl font-bold dark:text-white mx-4 lg:mx-0"
+          className="mx-4 text-2xl font-bold dark:text-white lg:mx-0 lg:text-4xl"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -287,17 +287,17 @@ export default function Home() {
         </motion.p>
         <motion.button
           type="button"
-          className="mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400 mx-4 lg:mx-0"
+          className="mx-4 mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400 lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
           variants={introWelcomeVariants}
         >
-         Learn More 
+          Learn More
         </motion.button>
 
         <motion.h1
-          className="mt-64 text-4xl font-bold dark:text-white mx-4 lg:mx-0"
+          className="mx-4 mt-64 text-4xl font-bold dark:text-white lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
@@ -326,9 +326,10 @@ export default function Home() {
           topRight={catalogWorks2}
           bottomLeft={catalogWorks3}
           bottomRight={catalogWorks4}
+          pageLink={'/expediaservice'}
         ></Section>
         <Section
-          title={'The Game'}
+          title={'The Shadow'}
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
           }
@@ -336,6 +337,7 @@ export default function Home() {
           topRight={catalogWorks2}
           bottomLeft={catalogWorks3}
           bottomRight={catalogWorks4}
+          pageLink={'/actionrpg'}
         ></Section>
         <Section
           title={'Scrape Tracker'}
@@ -346,6 +348,7 @@ export default function Home() {
           topRight={catalogWorks2}
           bottomLeft={catalogWorks3}
           bottomRight={catalogWorks4}
+          pageLink={'/flexngate'}
         ></Section>
         <Contact />
       </Container>

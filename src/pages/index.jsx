@@ -362,7 +362,7 @@ export default function Home() {
             'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'
           }
           bottomRight={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png '
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png'
           }
           pageLink={'/actionrpg'}
         ></Section>

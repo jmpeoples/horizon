@@ -331,10 +331,10 @@ export default function Home() {
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
           }
-          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-1_ds1cna.png'}
-          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png'}
+          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'}
+          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'}
           bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'}
-          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-3_gw8zeg.png'}
+          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png '}
           pageLink={'/actionrpg'}
         ></Section>
         <Section

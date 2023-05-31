@@ -16,7 +16,7 @@ export default function Actionrpg() {
         <meta name="description" content="Recent work." />
       </Head>
       <Container>
-        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
+        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546833/ActionRPG/mammon_banner_uqzzz2.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
               Explore a world <br />
@@ -211,8 +211,29 @@ export default function Actionrpg() {
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Features</h2>
         </section>
 
+
         <section className="mx-4 mt-16 grid grid-cols-1">
-          <Image src={dataScreenHome} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546867/ActionRPG/Shadow_Combat_Explosion_AdobeExpress_yhonnt.gif'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546937/ActionRPG/ARPG-2_tbd5ul.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546938/ActionRPG/ActionRPG-1_apgxqb.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685547011/ActionRPG/Mammon_ai_AdobeExpress_y4jkq6.gif'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-24">

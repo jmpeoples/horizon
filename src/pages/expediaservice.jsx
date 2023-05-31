@@ -16,7 +16,7 @@ export default function Expediaservice() {
         <meta name="description" content="Recent work." />
       </Head>
       <Container>
-        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
+        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546791/Expedia/Expedia_banner_rthhis.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
               Expanding Expedia <br />
@@ -219,35 +219,33 @@ export default function Expediaservice() {
           </div>
         </section>
 
-        <section className="mt-16 grid lg:grid-cols-3 lg:gap-12">
-          <div className="col-span-1 mx-4 mb-4">
-            <Image src={dataScreen} width={700} height={700} />
-          </div>
-
-          <div className="col-span-1 mx-4 mb-4">
-            <Image src={dataScreen} width={700} height={700} />
-          </div>
-
-          <div className="col-span-1 mx-4 mb-4">
-            <Image src={dataScreen} width={700} height={700} />
-          </div>
-        </section>
-
-
-        <section className="mx-4 mt-16 grid grid-cols-1">
-          <Image src={componentLibrary} width={1460} height={600} />
-        </section>
-
         <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Data Catalog
+            Expedia infrastructure requests
           </h2>
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
-          <Image src={dataScreenHome} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483997/Expedia/expedia-boards_toewdw.png'} width={1460} height={571} />
         </section>
 
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483997/Expedia/expedia-4_qimbjk.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483997/Expedia/expedia-2_snadfz.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483996/Expedia/expedia-3_nleace.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483998/Expedia/expedia-5_stgu86.png'} width={1460} height={571} />
+        </section>
+
+      
         <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">

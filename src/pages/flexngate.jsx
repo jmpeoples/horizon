@@ -16,10 +16,10 @@ export default function Flexngate() {
         <meta name="description" content="Recent work." />
       </Head>
       <Container>
-        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
+        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546807/FNG/fng_banner_rszfbi.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
-              Tracking scrape <br />
+              Tracking scrap <br />
               through production
             </h1>
           </div>
@@ -215,13 +215,27 @@ export default function Flexngate() {
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
-          <Image src={dataScreenHome} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549839/FNG/fng-01_dryuaz.png'} width={1460} height={571} />
+        </section>
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549833/FNG/fng-02_xx2moi.png'} width={1460} height={571} />
+        </section>
+
+
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484012/FNG/fng-4_blb1tf.png'} width={1460} height={571} />
+        </section>
+
+    
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484012/FNG/fng-2_vri3ul.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            25% reduction in manual requests.
+            Product saved company $200,000/year
           </p>
         </section>
         <Contact />

@@ -283,16 +283,29 @@ export default function Home() {
           I’m a designer and a developer. Let me help you bridge the gap between
           design & tech.
         </motion.p>
-        <motion.button
-          type="button"
-          className="mx-4 mt-8 rounded-full bg-sky-500 px-4 py-2 text-lg text-white dark:bg-amber-400 lg:mx-0"
+        <motion.div
+          className="flex flex-col items-center mx-4 mt-32 rounded-full px-4 py-2 text-lg text-white lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
           variants={introWelcomeVariants}
         >
-          Learn More
-        </motion.button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-16 w-16"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke='#facc15'
+              d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </motion.div>
 
         <motion.h1
           className="mx-4 mt-64 text-4xl font-bold dark:text-white lg:mx-0"
@@ -320,10 +333,18 @@ export default function Home() {
           description={
             'The ECP team needed to provide a unified method for employees, vendors and third-party call center agents to configure and request technical services.'
           }
-          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-1_ttanr4.png'}
-          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-2_inxhvz.png'}
-          bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-3_kpbgcj.png'}
-          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-4_xeqbvj.png'}
+          topLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-1_ttanr4.png'
+          }
+          topRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-2_inxhvz.png'
+          }
+          bottomLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-3_kpbgcj.png'
+          }
+          bottomRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-4_xeqbvj.png'
+          }
           pageLink={'/expediaservice'}
         ></Section>
         <Section
@@ -331,10 +352,18 @@ export default function Home() {
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
           }
-          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'}
-          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'}
-          bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'}
-          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png '}
+          topLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'
+          }
+          topRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'
+          }
+          bottomLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'
+          }
+          bottomRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png '
+          }
           pageLink={'/actionrpg'}
         ></Section>
         <Section
@@ -342,10 +371,18 @@ export default function Home() {
           description={
             'This product Enables all part to be built and tracked throughout the plant. Our department was focus on instruction manuals for assemblies and marketing.'
           }
-          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-1_tecpgd.png'}
-          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-2_ctzu1c.png'}
-          bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-3_m0spq9.png'}
-          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-4_egj2gr.png'}
+          topLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-1_tecpgd.png'
+          }
+          topRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-2_ctzu1c.png'
+          }
+          bottomLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-3_m0spq9.png'
+          }
+          bottomRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-4_egj2gr.png'
+          }
           pageLink={'/flexngate'}
         ></Section>
         <Contact />
@@ -396,7 +433,6 @@ export function HomeOrigin({ articles }) {
           </div>
         </div>
       </Container>
-    
     </>
   )
 }

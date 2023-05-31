@@ -300,7 +300,7 @@ export function Header() {
   }
   return (
     <>
-      <nav className="bg-white dark:bg-black">
+      <nav className="bg-white dark:bg-black sticky top-0">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <Link href="/" className="flex items-center">
             <HorizonIcon className="h-6 w-6 fill-black transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-white [@media_not_(prefers-color-scheme:dark)]:stroke-white" />
@@ -336,23 +336,31 @@ export function Header() {
                   className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-amber-400 md:dark:text-amber-400"
                   aria-current="page"
                 >
-                  Works
+                  Catalog
                 </Link>
               </li>
               <li className="mt-2">
                 <Link
-                  href="#"
+                  href="/expediaservice"
                   className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 >
-                  About
+                  Expedia
                 </Link>
               </li>
               <li className="mt-2">
                 <Link
-                  href="#"
+                  href="/actionrpg"
                   className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 >
-                  Contact
+                  Shadow
+                </Link>
+              </li>
+              <li className="mt-2">
+                <Link
+                  href="/flexngate"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+                >
+                  Bumpers
                 </Link>
               </li>
               <li>
@@ -364,17 +372,29 @@ export function Header() {
         <div className="hidden lg:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
             <a
-              href="#"
+              href="/datacatalog"
               className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
               aria-current="page"
             >
-              Works
+              Catalog
             </a>
             <a
-              href="#"
+              href="/expediaservice"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
-              Contact
+              Expedia
+            </a>
+            <a
+              href="/actionrpg"
+              className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >
+              Shadow
+            </a>
+            <a
+              href="/flexngate"
+              className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >
+              Bumpers
             </a>
             <ModeToggle />
           </div>

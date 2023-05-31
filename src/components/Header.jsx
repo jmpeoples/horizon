@@ -371,31 +371,31 @@ export function Header() {
         </div>
         <div className="hidden lg:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
-            <a
+            <Link
               href="/datacatalog"
               className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
               aria-current="page"
             >
               Catalog
-            </a>
-            <a
+            </Link>
+            <Link
               href="/expediaservice"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               Expedia
-            </a>
-            <a
+            </Link>
+            <Link
               href="/actionrpg"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               Shadow
-            </a>
-            <a
+            </Link>
+            <Link
               href="/flexngate"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               Bumpers
-            </a>
+            </Link>
             <ModeToggle />
           </div>
         </div>

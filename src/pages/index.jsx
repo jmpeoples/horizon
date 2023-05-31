@@ -367,9 +367,9 @@ export default function Home() {
           pageLink={'/actionrpg'}
         ></Section>
         <Section
-          title={'Scrape Tracker'}
+          title={'Scrap Tracker'}
           description={
-            'This product Enables all part to be built and tracked throughout the plant. Our department was focus on instruction manuals for assemblies and marketing.'
+            'This product enables all parts to be built and tracked throughout the plant. Our department was focus on instruction manuals for production assemblies and marketing.'
           }
           topLeft={
             'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-1_tecpgd.png'
@@ -396,7 +396,7 @@ export function HomeOrigin({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+         
         </title>
         <meta
           name="description"

@@ -39,12 +39,11 @@ export default function Flexngate() {
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
               Before Flex-N-Gate customers needed to buy the bumper of the truck
-              separately. This product Enables all part to be built and tracked
+              separately. This product enables all parts to be assembled and tracked
               throughout the plant. Our department was focus on instruction
-              manuals for assemblies, marketing at showcase events, photograph
-              to document machinery and video editing. This is were I learned
-              how to be laser focused on users and to actively listen to their
-              problems.
+              manuals for assemblies, marketing at showcase events, product photography, and instructional video content. This is were I learned
+              to be laser focused on users by actively listening to their
+              pain points.
             </p>
             <div className="grid grid-cols-2">
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
@@ -63,7 +62,7 @@ export default function Flexngate() {
         <section className="mx-4 mt-24 grid grid-flow-row">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Problem</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Floor workers are multi-lingual and scrape tracking is done manual
+            Floor workers are multi-lingual and scrap tracking is done manual
             with pen and paper.
           </p>
         </section>
@@ -92,7 +91,7 @@ export default function Flexngate() {
               1. No Automation
             </p>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              Measurable scrape tracking for cost analytics.
+              Measurable scrap tracking for cost analytics.
             </p>
           </div>
         </section>

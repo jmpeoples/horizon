@@ -6,7 +6,7 @@ import dataScreen from '@/images/photos/Catalog-Search-Details-screen.png'
 import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
-import { internalVariant } from '@/components/Section'
+import { introWelcomeVariants } from '@/components/Section'
 
 
 import mixpanel from 'mixpanel-browser';
@@ -41,7 +41,7 @@ export default function Expediaservice() {
           initial="hide"
           whileInView="show"
           exit="exit"
-          variants={internalVariant}
+          variants={introWelcomeVariants}
         >
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
@@ -114,7 +114,7 @@ export default function Expediaservice() {
           initial="hide"
           whileInView="show"
           exit="exit"
-          variants={internalVariant}
+          variants={introWelcomeVariants}
         >
           <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
             Opportunity

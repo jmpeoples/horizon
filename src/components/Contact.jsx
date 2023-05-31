@@ -12,6 +12,7 @@ export default function Contact() {
 
           <div className="flex flex-col items-center">
             <a
+              target="_blank"
               href="mailto:peoples.develop@gmail.com"
               className="mt-8 content-center rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
             >

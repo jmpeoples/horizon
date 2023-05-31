@@ -8,6 +8,18 @@ import { motion } from 'framer-motion'
 import { internalVariant } from '@/components/Section'
 
 
+import mixpanel from 'mixpanel-browser';
+
+// Replace YOUR_TOKEN with your Project Token
+mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
+
+
+mixpanel.track('DataCatalog Visit', {
+  'Visit Type': 'common',
+});
+
+
+
 export default function Datacatalog() {
   return (
     <>

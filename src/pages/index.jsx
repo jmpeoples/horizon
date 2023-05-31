@@ -30,6 +30,17 @@ import catalogWorks4 from '@/images/photos/catalog-works-4.png'
 import { introHeaderVariants, introWelcomeVariants } from '@/components/Section'
 import Contact from '@/components/Contact'
 
+import mixpanel from 'mixpanel-browser';
+
+// Replace YOUR_TOKEN with your Project Token
+mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
+
+
+mixpanel.track('Homepage Visit', {
+  'Visit Type': 'common',
+});
+
+
 function MailIcon(props) {
   return (
     <svg

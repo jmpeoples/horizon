@@ -11,12 +11,12 @@ export default function Contact() {
           </p>
 
           <div className="flex flex-col items-center">
-            <button
-              type="button"
+            <a
+              href="mailto:peoples.develop@gmail.com"
               className="mt-8 content-center rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
             >
-              Contact
-            </button>
+              peoples.develop@gmail.com
+            </a>
           </div>
         </div>
       </section>

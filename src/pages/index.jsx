@@ -378,10 +378,10 @@ export default function Home() {
             'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-2_ctzu1c.png'
           }
           bottomLeft={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-3_m0spq9.png'
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685559890/FNG/home-fng-3-final_e5swkk.png'
           }
           bottomRight={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-4_egj2gr.png'
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685559890/FNG/home-fng-4-final_dsahfy.png'
           }
           pageLink={'/flexngate'}
         ></Section>

@@ -6,7 +6,7 @@ import dataScreen from '@/images/photos/Catalog-Search-Details-screen.png'
 import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
-import { internalVariant } from '@/components/Section'
+import { introWelcomeVariants } from '@/components/Section'
 
 export default function Actionrpg() {
   return (
@@ -18,7 +18,7 @@ export default function Actionrpg() {
       <Container>
         <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546833/ActionRPG/mammon_banner_uqzzz2.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
-            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
               Explore a world <br />
               full of mysteries
             </h1>
@@ -29,7 +29,7 @@ export default function Actionrpg() {
           initial="hide"
           whileInView="show"
           exit="exit"
-          variants={internalVariant}
+          variants={introWelcomeVariants}
         >
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
@@ -105,7 +105,7 @@ export default function Actionrpg() {
           initial="hide"
           whileInView="show"
           exit="exit"
-          variants={internalVariant}
+          variants={introWelcomeVariants}
         >
           <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
             Opportunity

@@ -30,7 +30,7 @@ export default function Expediaservice() {
       <Container>
         <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546791/Expedia/Expedia_banner_rthhis.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
-            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
               Expanding Expedia <br />
               infrastructure services
             </h1>

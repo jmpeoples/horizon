@@ -100,21 +100,29 @@ export function Section({
               src={topLeft}
               alt=""
               className="rounded-xl border-2 border-neutral-200 dark:border-neutral-700"
+              width={350}
+              height={304}
             />
             <Image
               src={topRight}
               alt=""
               className="rounded-xl border-2 border-neutral-200 dark:border-neutral-700"
+              width={350}
+              height={304}
             />
             <Image
               src={bottomLeft}
               alt=""
               className="rounded-xl border-2 border-neutral-200 dark:border-neutral-700"
+              width={350}
+              height={304}
             />
             <Image
               src={bottomRight}
               alt=""
               className="rounded-xl border-2 border-neutral-200 dark:border-neutral-700"
+              width={350}
+              height={304}
             />
           </div>
         </div>

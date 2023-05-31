@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import componentLibrary from '@/images/photos/react-component-library.png'
-import dataScreen from '@/images/photos/Catalog-Search-Details-screen.png'
 import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
@@ -231,15 +230,15 @@ export default function Datacatalog() {
 
         <section className="mt-16 grid lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1 mx-4 mb-4">
-            <Image src={dataScreen} width={700} height={700} />
+            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-2_g6dxwu.png' width={700} height={700} />
           </div>
 
           <div className="col-span-1 mx-4 mb-4">
-            <Image src={dataScreen} width={700} height={700} />
+            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload//v1685483981/BAM/bam-wire-1_oaixgw.png' width={700} height={700} />
           </div>
 
           <div className="col-span-1 mx-4 mb-4">
-            <Image src={dataScreen} width={700} height={700} />
+            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-3_sb9890.png' width={700} height={700} />
           </div>
         </section>
 
@@ -260,7 +259,22 @@ export default function Datacatalog() {
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src={dataScreenHome} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'} width={1460} height={571} />
+        
+        </section>
+
+        <section className="mt-16 grid grid-cols-1 mx-4">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'} width={1460} height={571} />
+        
+        </section>
+
+        <section className="mt-16 grid grid-cols-1 mx-4">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'} width={1460} height={571} />
+        
+        </section>
+
+        <section className="mt-16 grid grid-cols-1 mx-4">
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'} width={1460} height={571} />
         
         </section>
 

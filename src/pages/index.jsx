@@ -22,8 +22,6 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { formatDate } from '@/lib/formatDate'
-import { generateRssFeed } from '@/lib/generateRssFeed'
-import { getAllArticles } from '@/lib/getAllArticles'
 import { Section } from '@/components/Section'
 import catalogWorks1 from '@/images/photos/datacatalog-works-1.png'
 import catalogWorks2 from '@/images/photos/catalog-works-2.png'
@@ -322,10 +320,10 @@ export default function Home() {
           description={
             'The ECP team needed to provide a unified method for employees, vendors and third-party call center agents to configure and request technical services.'
           }
-          topLeft={catalogWorks1}
-          topRight={catalogWorks2}
-          bottomLeft={catalogWorks3}
-          bottomRight={catalogWorks4}
+          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-1_ttanr4.png'}
+          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-2_inxhvz.png'}
+          bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-3_kpbgcj.png'}
+          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-expedia-4_xeqbvj.png'}
           pageLink={'/expediaservice'}
         ></Section>
         <Section
@@ -333,10 +331,10 @@ export default function Home() {
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
           }
-          topLeft={catalogWorks1}
-          topRight={catalogWorks2}
-          bottomLeft={catalogWorks3}
-          bottomRight={catalogWorks4}
+          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-1_ds1cna.png'}
+          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png'}
+          bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'}
+          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-3_gw8zeg.png'}
           pageLink={'/actionrpg'}
         ></Section>
         <Section
@@ -344,10 +342,10 @@ export default function Home() {
           description={
             'This product Enables all part to be built and tracked throughout the plant. Our department was focus on instruction manuals for assemblies and marketing.'
           }
-          topLeft={catalogWorks1}
-          topRight={catalogWorks2}
-          bottomLeft={catalogWorks3}
-          bottomRight={catalogWorks4}
+          topLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-1_tecpgd.png'}
+          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484352/home/home-fng-2_ctzu1c.png'}
+          bottomLeft={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-3_m0spq9.png'}
+          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-fng-4_egj2gr.png'}
           pageLink={'/flexngate'}
         ></Section>
         <Contact />
@@ -398,34 +396,7 @@ export function HomeOrigin({ articles }) {
           </div>
         </div>
       </Container>
-      <Photos />
-      <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Resume />
-          </div>
-        </div>
-      </Container>
+    
     </>
   )
-}
-
-export async function getStaticProps() {
-  if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
-  }
-
-  return {
-    props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
-    },
-  }
 }

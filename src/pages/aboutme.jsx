@@ -28,7 +28,7 @@ export default function Actionrpg() {
         <div className="col-span-2">
           <h2 className="mt-12 text-2xl lg:text-4xl font-bold dark:text-white">Hello World <br/> I'm Josiah.</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-          I’m a developer and designer based in Austin with a focus on pixel perfect user-centered design.
+          {`I’m`} a developer and designer based in Austin with a focus on pixel perfect user-centered design.
           Let me help you bridge the gap between design & tech.
           </p>
          

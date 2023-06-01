@@ -38,7 +38,7 @@ export default function Actionrpg() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-              I wanted to learn C# to improve at strongly typed languages. After
+              I wanted to learn C# and challenge my design skills. After
               building a few 2D pixel projects, I decided to take the leap and
               build a shippable game. Shadow of Mammon is a fast paced Action
               RPG inspired by modern JRPGs.

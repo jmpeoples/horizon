@@ -234,6 +234,31 @@ export default function Home() {
           I’m a designer and a developer. Let me help you bridge the gap between
           design & tech.
         </motion.p>
+        <motion.div className="max-w-2xl"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introHeaderVariants}
+        >
+          
+          <div className="mt-6 flex gap-6">
+            <SocialLink
+              href="https://twitter.com/josiah_one"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
+            />
+            <SocialLink
+              href="https://github.com/jmpeoples?tab=repositories"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/josiahpeoples/"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
+          </div>
+        </motion.div>
         <motion.div
           className="flex flex-col items-center mx-4 mt-32 rounded-full px-4 py-2 text-lg text-white lg:mx-0"
           initial="hide"

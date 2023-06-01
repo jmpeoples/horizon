@@ -1,12 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Container } from '@/components/Container'
-import componentLibrary from '@/images/photos/react-component-library.png'
-import dataScreen from '@/images/photos/Catalog-Search-Details-screen.png'
-import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
 import { introHeaderVariants } from '@/components/Section'
+import { SocialLink } from '.'
+import {
+  GitHubIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  TwitterIcon,
+} from '@/components/SocialIcons'
 
 
 export default function Actionrpg() {
@@ -31,6 +35,32 @@ export default function Actionrpg() {
           {`I’m a developer and designer based in Austin, with a focus on pixel perfect user-centered design.
           Let me help you bridge the gap between design & tech.`}
           </p>
+
+          <motion.div className="mb-8 max-w-2xl"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introHeaderVariants}
+        >
+          
+          <div className="mt-6 flex gap-6">
+            <SocialLink
+              href="https://twitter.com/josiah_one"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
+            />
+            <SocialLink
+              href="https://github.com/jmpeoples/horizon"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/josiahpeoples/"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
+          </div>
+        </motion.div>
          
         </div>
         <div className="col-span-1 lg:col-span-1 object-cover">

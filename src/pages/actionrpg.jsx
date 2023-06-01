@@ -213,26 +213,44 @@ export default function Actionrpg() {
 
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Playable beta level
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Beta player UI
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Combat damage and vfx test
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546867/ActionRPG/Shadow_Combat_Explosion_AdobeExpress_yhonnt.gif'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Blender shading
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546937/ActionRPG/ARPG-2_tbd5ul.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Animation state machine and Character controller scripts
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546938/ActionRPG/ActionRPG-1_apgxqb.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Targeting system
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685547011/ActionRPG/Mammon_ai_AdobeExpress_y4jkq6.gif'} width={1460} height={571} />
         </section>
 

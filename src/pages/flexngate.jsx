@@ -226,20 +226,32 @@ export default function Flexngate() {
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Printable instruction manual with scanable parts
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549839/FNG/fng-01_dryuaz.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            3 x 5ft diagram posted at assembly cell
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549833/FNG/fng-02_xx2moi.png'} width={1460} height={571} />
         </section>
 
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+           Asset for instruction manual
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484012/FNG/fng-4_blb1tf.png'} width={1460} height={571} />
         </section>
 
     
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+          Asset for instruction manual
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484012/FNG/fng-2_vri3ul.png'} width={1460} height={571} />
         </section>
 

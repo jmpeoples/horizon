@@ -271,21 +271,33 @@ export default function Datacatalog() {
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
+        <h3 className="text-base mb-4 dark:text-white">
+            Welcome page
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'} width={1460} height={571} />
         
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
+        <h3 className="text-base mb-4 dark:text-white">
+            Dataset detail (All information has been replaced for privacy)
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'} width={1460} height={571} />
         
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
+        <h3 className="text-base mb-4 dark:text-white">
+            Custom Document upload
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'} width={1460} height={571} />
         
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
+        <h3 className="text-base mb-4 dark:text-white">
+           Dataset Search
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'} width={1460} height={571} />
         
         </section>

@@ -238,22 +238,37 @@ export default function Expediaservice() {
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+           User flow 1
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483997/Expedia/expedia-boards_toewdw.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+           Saved Services
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483997/Expedia/expedia-4_qimbjk.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+           Knowledge share
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483997/Expedia/expedia-2_snadfz.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+        Duplicate service incident request filter
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483996/Expedia/expedia-3_nleace.png'} width={1460} height={571} />
         </section>
 
         <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+           Service confirmation and feedback
+          </h3>
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483998/Expedia/expedia-5_stgu86.png'} width={1460} height={571} />
         </section>
 

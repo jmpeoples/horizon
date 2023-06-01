@@ -391,24 +391,28 @@ export function Header() {
               href="/datacatalog"
               className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
               aria-current="page"
+              onClick={() => toggleMenu('mobile-menu')}
             >
               Catalog
             </Link>
             <Link
               href="/expediaservice"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => toggleMenu('mobile-menu')}
             >
               Expedia
             </Link>
             <Link
               href="/actionrpg"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => toggleMenu('mobile-menu')}
             >
               Shadow
             </Link>
             <Link
               href="/flexngate"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => toggleMenu('mobile-menu')}
             >
               Bumpers
             </Link>
@@ -417,6 +421,7 @@ export function Header() {
             <Link
               href="/aboutme"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => toggleMenu('mobile-menu')}
             >
               About
             </Link>
@@ -424,6 +429,7 @@ export function Header() {
             <Link
               href="#contact"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => toggleMenu('mobile-menu')}
             >
               Contact
             </Link>

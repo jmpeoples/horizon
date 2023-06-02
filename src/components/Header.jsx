@@ -333,7 +333,7 @@ export function Header() {
               <li className="mt-2">
                 <Link
                   href="/datacatalog"
-                  className="block rounded bg-amber-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-amber-400 md:dark:text-amber-400"
+                  className="block rounded bg-amber-700 py-2 pl-3 pr-4 text-black dark:text-white md:bg-transparent md:p-0 dark:hover:text-amber-400"
                   aria-current="page"
                 >
                   Catalog

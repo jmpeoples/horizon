@@ -258,6 +258,9 @@ export default function Datacatalog() {
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Atomic React Component Library
           </h2>
+          <p className="mb-4 mt-4 text-lg text-neutral-400 dark:text-neutral-400">
+            I designed and contributed development of a comprehensive React Storybook. All components adhere to the principles of atomic design.
+          </p>
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">

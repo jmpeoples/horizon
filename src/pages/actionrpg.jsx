@@ -254,11 +254,16 @@ export default function Actionrpg() {
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685547011/ActionRPG/Mammon_ai_AdobeExpress_y4jkq6.gif'} width={1460} height={571} />
         </section>
 
-        <section className="mx-4 mt-24">
+        <section className="mx-4 mt-24 mb-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Development in progress. TBD
+          <p className="mt-12 text-lg text-neutral-400 mb-8 dark:text-neutral-400">
+            25-50 subscribers per month. Click below for dev log.
           </p>
+          <a 
+            href="https://twitter.com/sailingfox1" 
+            className="mt-12 rounded-full border-2 border-white px-8 py-2 text-lg text-neutral-400 font-bold hover:text-amber-400 dark:text-neutral-400 dark:hover:text-amber-400">
+            Dev Log
+          </a>
         </section>
         <Contact />
       </Container>

@@ -7,8 +7,6 @@ import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
 import { introWelcomeVariants } from '@/components/Section'
-
-
 import mixpanel from 'mixpanel-browser';
 
 // Replace YOUR_TOKEN with your Project Token

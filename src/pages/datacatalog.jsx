@@ -264,6 +264,10 @@ export default function Datacatalog() {
           <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png' width={1460} height={600} />
         </section>
 
+        <section className="mt-16 grid grid-cols-1 mx-4">
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996790/BAM/Typography-body_hwouot.png' width={1460} height={600} />
+        </section>
+
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Atomic React Component Library

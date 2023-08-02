@@ -60,7 +60,6 @@ export default function Datacatalog() {
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">My Role</li>
                 <li>Lead Designer</li>
-                <li>Visual Designer</li>
                 <li>Software Developer</li>
                 <li>Figma Prototype</li>
                 <li>Minimum viable product</li>
@@ -252,6 +251,17 @@ export default function Datacatalog() {
           <div className="col-span-1 mx-4 mb-4">
             <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-3_sb9890.png' width={700} height={700} />
           </div>
+        </section>
+
+
+        <section className="mt-24 mx-4">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            Typography
+          </h2>
+        </section>
+
+        <section className="mt-16 grid grid-cols-1 mx-4">
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png' width={1460} height={600} />
         </section>
 
         <section className="mt-24 mx-4">

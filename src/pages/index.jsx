@@ -218,9 +218,9 @@ export default function Home() {
             'Balyasny portfolio managers, sector data analysts, data managers need to know what data is available, where it lives, and how to access it quickly.'
           }
           topLeft={catalogWorks1}
-          topRight={catalogWorks2}
+          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038228/Mobile/catalog-works-3-mobile_1_fkzwwm.png'}
           bottomLeft={catalogWorks3}
-          bottomRight={catalogWorks4}
+          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038417/Mobile/catalog-works-4-mobile_amjyu1.png'}
           pageLink={'/datacatalog'}
         ></Section>
         <Section

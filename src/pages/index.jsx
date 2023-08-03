@@ -15,9 +15,7 @@ import {
 import { formatDate } from '@/lib/formatDate'
 import { Section } from '@/components/Section'
 import catalogWorks1 from '@/images/photos/datacatalog-works-1.png'
-import catalogWorks2 from '@/images/photos/catalog-works-2.png'
 import catalogWorks3 from '@/images/photos/catalog-works-3.png'
-import catalogWorks4 from '@/images/photos/catalog-works-4.png'
 import { introHeaderVariants, introWelcomeVariants } from '@/components/Section'
 import Contact from '@/components/Contact'
 
@@ -55,56 +53,6 @@ function MailIcon(props) {
   )
 }
 
-function BriefcaseIcon(props) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      {...props}
-    >
-      <path
-        d="M2.75 9.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
-        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
-      />
-      <path
-        d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5"
-        className="stroke-zinc-400 dark:stroke-zinc-500"
-      />
-    </svg>
-  )
-}
-
-function ArrowDownIcon(props) {
-  return (
-    <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" {...props}>
-      <path
-        d="M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-}
-
-function Article({ article }) {
-  return (
-    <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
-      <Card.Eyebrow as="time" dateTime={article.date} decorate>
-        {formatDate(article.date)}
-      </Card.Eyebrow>
-      <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
-    </Card>
-  )
-}
 
 export function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -155,11 +103,6 @@ export default function Home() {
         >
           
           <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://twitter.com/josiah_one"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
             <SocialLink
               href="https://github.com/jmpeoples/horizon"
               aria-label="Follow on GitHub"
@@ -243,25 +186,6 @@ export default function Home() {
           pageLink={'/expediaservice'}
         ></Section>
         <Section
-          title={'The Shadow'}
-          description={
-            'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
-          }
-          topLeft={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'
-          }
-          topRight={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'
-          }
-          bottomLeft={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'
-          }
-          bottomRight={
-            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484354/home/home-rpg-4_n1m9je.png'
-          }
-          pageLink={'/actionrpg'}
-        ></Section>
-        <Section
           title={'Scrap Tracker'}
           description={
             'This product enables all parts to be built and tracked throughout the plant. Our department was focus on instruction manuals for production assemblies and marketing.'
@@ -279,6 +203,25 @@ export default function Home() {
             'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685559890/FNG/home-fng-4-final_dsahfy.png'
           }
           pageLink={'/flexngate'}
+        ></Section>
+          <Section
+          title={'The Shadow'}
+          description={
+            'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
+          }
+          topLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685546851/ActionRPG/LandOfRivet_AdobeExpress_ojtjpv.gif'
+          }
+          topRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685549321/ActionRPG/game_ui_xkb7yw.png'
+          }
+          bottomLeft={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685484353/home/home-rpg-2_zhyajd.png'
+          }
+          bottomRight={
+            'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038790/ActionRPG/SOM_feature_GIF_io5stg.gif'
+          }
+          pageLink={'/actionrpg'}
         ></Section>
         <Contact />
       </Container>

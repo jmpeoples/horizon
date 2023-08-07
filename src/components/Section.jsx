@@ -83,7 +83,7 @@ export function Section({
       >
         <div className="col-span-1">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">{title}</h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+          <p className="mt-12 mb-4 text-lg text-neutral-400 dark:text-neutral-400">
             {description}
           </p>
           <a

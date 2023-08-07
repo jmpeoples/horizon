@@ -89,7 +89,7 @@ export function Section({
           <a
             type="button"
             href={pageLink}
-            className="mb-8 mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
+            className="mb-16 mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
           >
             Learn More
           </a>

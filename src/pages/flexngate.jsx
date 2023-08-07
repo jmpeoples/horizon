@@ -62,6 +62,7 @@ export default function Flexngate() {
                 <li className="font-bold">My Role</li>
                 <li>Designer</li>
                 <li>UX Researcher</li>
+                <li>Illustrator</li>
               </ul>
 
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">

@@ -295,7 +295,15 @@ export default function Datacatalog() {
 
 
         <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png' width={1460} height={600} />
+        <div className="hidden sm:hidden md:hidden lg:block">
+        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png' width={1460} height={600} />
+          </div>
+
+          
+          <div className="block sm:hidden md:hidden lg:hidden">
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692480143/BAM/mobile-search-sized_gwluga.png' width={570} height={4400} />
+          </div>
+          
         </section>
 
 

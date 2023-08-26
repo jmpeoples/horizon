@@ -14,6 +14,7 @@ import {
 } from '@/components/SocialIcons'
 import { formatDate } from '@/lib/formatDate'
 import { Section } from '@/components/Section'
+import { SectionSingle } from '@/components/SectionSingle'
 import catalogWorks1 from '@/images/photos/datacatalog-works-1.png'
 import catalogWorks3 from '@/images/photos/catalog-works-3.png'
 import { introHeaderVariants, introWelcomeVariants } from '@/components/Section'
@@ -154,6 +155,27 @@ export default function Home() {
         >
           Selected Works
         </motion.h1>
+        <div className="hidden sm:hidden md:hidden lg:block">
+        <SectionSingle
+          title={'Bustr'}
+          description={
+            'Coming Soon. Shop and search for homes by closing costs.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693091458/Bustr/Nice_house_mobile_2_ornjex.gif"}
+        ></SectionSingle>
+        </div>
+
+        <div className="block sm:hidden md:hidden lg:hidden">
+        <SectionSingle
+          title={'Bustr'}
+          description={
+            'Coming Soon. Shop and search for homes by closing costs.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693090363/Bustr/Nice_house_mobile_glmyj6.gif"}
+        ></SectionSingle>
+
+        </div>
+        
 
         <Section
           title={'Data Catalog'}

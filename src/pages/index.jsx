@@ -161,7 +161,7 @@ export default function Home() {
           description={
             'Coming Soon. Shop and search for homes by closing costs.'
           }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693091458/Bustr/Nice_house_mobile_2_ornjex.gif"}
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
         ></SectionSingle>
         </div>
 
@@ -171,7 +171,7 @@ export default function Home() {
           description={
             'Coming Soon. Shop and search for homes by closing costs.'
           }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693090363/Bustr/Nice_house_mobile_glmyj6.gif"}
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238522/Bustr/Project_Bustr_all_Screens_small_device_znjrvb.gif"}
         ></SectionSingle>
 
         </div>

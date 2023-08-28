@@ -92,7 +92,7 @@ export function SectionSingle({
             <Image
               src={topLeft}
               alt=""
-              className="rounded-xl border-2 border-neutral-200 dark:border-neutral-700"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={774}
               height={494}
             />

@@ -25,7 +25,7 @@ export function Footer() {
                 <NavLink href="/expediaservice">Expedia</NavLink>
                 <NavLink href="/actionrpg">Shadow</NavLink>
                 <NavLink href="/flexngate">Bumpers</NavLink>
-                <NavLink href="/aboutme">About</NavLink>
+                <NavLink href="/about">About</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Josiah Peoples. All rights

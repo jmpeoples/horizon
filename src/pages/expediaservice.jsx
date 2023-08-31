@@ -59,6 +59,7 @@ export default function Expediaservice() {
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">My Role</li>
                 <li>Lead Designer</li>
+                <li>Product designer</li>
                 <li>Visual Designer</li>
                 <li>Software Developer</li>
                 <li>Adobe Prototype</li>

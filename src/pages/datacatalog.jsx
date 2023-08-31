@@ -2,12 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import componentLibrary from '@/images/photos/react-component-library.png'
-import dataScreenHome from '@/images/photos/Catalog-HomePage.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
 import { introWelcomeVariants } from '@/components/Section'
-
-
 import mixpanel from 'mixpanel-browser';
 
 // Replace YOUR_TOKEN with your Project Token
@@ -60,6 +57,7 @@ export default function Datacatalog() {
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">My Role</li>
                 <li>Lead Designer</li>
+                <li>Product designer</li>
                 <li>Software Developer</li>
                 <li>Figma Prototype</li>
                 <li>Minimum viable product</li>
@@ -67,7 +65,7 @@ export default function Datacatalog() {
 
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">Year</li>
-                <li>2020 - 2022</li>
+                <li>2020 - 2023</li>
               </ul>
             </div>
           </div>

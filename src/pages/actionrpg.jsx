@@ -13,7 +13,7 @@ import mixpanel from 'mixpanel-browser';
 mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
 
 
-mixpanel.track('Expedia Visit', {
+mixpanel.track('Action RPG Visit', {
   'Visit Type': 'common',
 });
 
@@ -57,6 +57,7 @@ export default function Actionrpg() {
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">My Role</li>
                 <li>Programmer</li>
+                <li>Product designer</li>
                 <li>Level Designer</li>
                 <li>Marketing</li>
                 <li>UI/UX Designer</li>

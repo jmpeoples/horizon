@@ -1,122 +1,198 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
+import Contact from '@/components/Contact'
+import { motion } from 'framer-motion'
+import { introHeaderVariants } from '@/components/Section'
+import mixpanel from 'mixpanel-browser';
+import { SocialLink } from '.'
 import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
 
-function SocialLink({ className, href, children, icon: Icon }) {
-  return (
-    <li className={clsx(className, 'flex')}>
-      <Link
-        href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-      >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
-        <span className="ml-4">{children}</span>
-      </Link>
-    </li>
-  )
-}
+// Replace YOUR_TOKEN with your Project Token
+mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
+mixpanel.track('About me visit', {
+  'Visit Type': 'common',
+});
 
-function MailIcon(props) {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <path
-        fillRule="evenodd"
-        d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"
-      />
-    </svg>
-  )
-}
 
 export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
-        <meta
-          name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
-        />
+        <title>Josiah Peoples</title>
+        <meta name="description" content="Recent work." />
       </Head>
-      <Container className="mt-16 sm:mt-32">
-        <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-          <div className="lg:pl-20">
-            <div className="max-w-xs px-2.5 lg:max-w-none">
-              <Image
-                src={portraitImage}
-                alt=""
-                sizes="(min-width: 1024px) 32rem, 20rem"
-                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-              />
-            </div>
+      <Container>
+      <section className="mx-4 lg:mx-0">
+      <motion.div
+        className="mt-8 lg:mt-52 grid grid-flow-row md:grid-cols-3 md:gap-12"
+        initial="hide"
+        whileInView="show"
+        exit="exit"
+        variants={introHeaderVariants}
+      >
+        <div className="col-span-2">
+          <h2 className="mt-12 text-2xl lg:text-4xl font-bold dark:text-white">Hello World <br/> {`I’m Josiah.`}</h2>
+          <p className="mt-12 mb-12 text-lg text-neutral-400 dark:text-neutral-400">
+          {`I’m a product designer based in Austin, with a focus on pixel perfect user-centered design.
+          Let me help you bridge the gap between design & tech.`}
+          </p>
+
+          <motion.div className="mb-8 max-w-2xl"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introHeaderVariants}
+        >
+          
+          <div className="mt-6 flex gap-6">
+            <SocialLink
+              href="https://twitter.com/josiah_one"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
+            />
+            <SocialLink
+              href="https://github.com/jmpeoples/horizon"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/josiahpeoples/"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
           </div>
-          <div className="lg:order-first lg:row-span-2">
-            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
-            </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
-              </p>
-              <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
-              </p>
-              <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
-              </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
-              </p>
-            </div>
-          </div>
-          <div className="lg:pl-20">
-            <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-                Follow on Instagram
-              </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
-              </SocialLink>
-              <SocialLink
-                href="mailto:spencer@planetaria.tech"
-                icon={MailIcon}
-                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-              >
-                spencer@planetaria.tech
-              </SocialLink>
-            </ul>
-          </div>
+        </motion.div>
+         
         </div>
+        <div className="col-span-1 lg:col-span-1 object-cover">
+          
+            <Image
+              src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685644274/mephoto_jwswgh.png'}
+              alt=""
+              className="rounded-xl border-2 border-neutral-200 dark:border-neutral-700"
+              width={500}
+              height={500}
+            />
+        </div>
+      </motion.div>
+    </section>
+    <motion.section
+          className="mx-4 mt-32 grid grid-flow-row lg:grid-cols-3 lg:gap-12"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
+        >
+          <div className="col-span-3">
+            <h2 className="mt-12 text-2xl font-bold flex justify-center dark:text-white">
+              Work History
+            </h2>
+          </div>
+          <div className="col-span-3">
+            <div className="flex justify-center">
+              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+                <li className="font-bold flex justify-center">2020-2023</li>
+                <li className="flex justify-center">Product Designer at Balyasny Asset Management</li>
+                <li className="font-bold flex justify-center">2018-2020</li>
+                <li className="flex justify-center">Senior Web Designer at Expedia</li>
+                <li className="font-bold flex justify-center">2016-2018</li>
+                <li className="flex justify-center">Freelance Product Designer</li>
+                <li className="font-bold flex justify-center">2010-2018</li>
+                <li className="flex justify-center">UI Designer at Flex-N-Gate</li>
+              </ul>
+
+
+            </div>
+          </div>
+        </motion.section>
+        <motion.section
+          className="mx-4 mt-32 grid grid-flow-row lg:grid-cols-3 lg:gap-12"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
+        >
+          <div className="col-span-1">
+            <h2 className="mt-12 text-2xl font-bold dark:text-white">
+              Design Approach
+            </h2>
+          </div>
+          <div className="col-span-2">
+            <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+              I have developed a strong background in design across the FinTech,
+              Travel, and Automotive industries. Throughout my career, I have
+              successfully led and launched a variety of products, from concept
+              to market. This experience has provided me with a comprehensive
+              understanding of the product development lifecycle and how to
+              strategically align it with business objectives.
+            </p>
+            <div className="grid grid-cols-3">
+              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+                <li className="font-bold">Skills</li>
+                <li>Product Strategy</li>
+                <li>Information Architecture</li>
+                <li>User-centered design</li>
+                <li>Product Design</li>
+                <li>Interaction Design</li>
+                <li>Usability</li>
+                <li>Prototypes</li>
+                <li>User Flow</li>
+                <li>Design systems</li>
+                <li>Visual Design</li>
+                <li>UX Research</li>
+                <li>Game design</li>
+                <li>User Experience Research</li>
+                <li>Agile Framework</li>
+                <li>Competitive Analysis</li>
+                <li>Product Management</li>
+                <li>Typography</li>
+                <li>Data Visualization</li>
+                <li>User Interface Design</li>
+                <li>Mobile Design</li>
+                <li>Product Development</li>
+                <li>A/B Testing</li>
+                <li>Wireframes</li>
+                <li>Visual Design</li>
+              </ul>
+
+              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+                <li className="font-bold">Tools</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>Pencil and Paper</li>
+                <li>Figma</li>
+                <li>Blender</li>
+                <li>Unity</li>
+                <li>Davinci Resolve</li>
+              </ul>
+
+              <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+                <li className="font-bold">Tech</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>GIT</li>
+                <li>PostgreSQL</li>
+                <li>C#</li>
+                <li>GraphQL</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Snowflake</li>
+                <li>APIs</li>
+              </ul>
+            </div>
+          </div>
+        </motion.section>
+       
+
+        <Contact />
       </Container>
     </>
   )

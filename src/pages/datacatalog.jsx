@@ -377,7 +377,7 @@ export default function Datacatalog() {
           </h2>
           <ul className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
             <li className="list-disc">Led UI/UX development of the Data Intelligence finance platform that enabled the firm to increase dataset offerings by 50%. Platform facilitated workflow collection, categorization, and distribution of 3,000+ datasets, increasing user engagement in the product by 20%.</li>
-            <li className="list-disc">Conducted extensive qualitative user research to gain customer insights into users' financial experience, pain points, and analytical behaviors. Designed Data Intelligence design system, resulting in a 25% increase in Net Promoter Score among 1,000 customers.</li>
+            <li className="list-disc">{`Conducted extensive qualitative user research to gain customer insights into users' financial experience, pain points, and analytical behaviors. Designed Data Intelligence design system, resulting in a 25% increase in Net Promoter Score among 1,000 customers.`}</li>
             <li className="list-disc">Implemented an analytics dashboard that provided real-time insights into user behavior and product performance, resulting in re-prioritization of product strategy and flexible initiatives.</li>
            <li className="list-disc">Designed reusable ReactJS UI components for a component library. Contributed designs for  developer tools.</li>
            <li className="list-disc">Designed and developed wireframes, mockups, and prototypes for AI product testing.</li>

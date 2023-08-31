@@ -5,17 +5,14 @@ import componentLibrary from '@/images/photos/react-component-library.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
 import { introWelcomeVariants } from '@/components/Section'
-import mixpanel from 'mixpanel-browser';
+import mixpanel from 'mixpanel-browser'
 
 // Replace YOUR_TOKEN with your Project Token
-mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
-
+mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', { debug: true })
 
 mixpanel.track('DataCatalog Visit', {
   'Visit Type': 'common',
-});
-
-
+})
 
 export default function Datacatalog() {
   return (
@@ -33,11 +30,12 @@ export default function Datacatalog() {
             </h1>
           </div>
         </section>
-        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
-           initial="hide"
-           whileInView="show"
-           exit="exit"
-           variants={introWelcomeVariants}
+        <motion.section
+          className="mx-4 mt-32 grid grid-flow-row lg:grid-cols-3 lg:gap-12"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introWelcomeVariants}
         >
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
@@ -51,7 +49,8 @@ export default function Datacatalog() {
               access it quickly. The systems and process require knowledge from
               CRMs, accounting systems, cloud vendor documentation buckets, and
               third party APIs. Balyasny needed to facilitate portfolio managers
-              and analyst to query in-house datasets and quickly generate new ideas.
+              and analyst to query in-house datasets and quickly generate new
+              ideas.
             </p>
             <div className="grid grid-cols-2">
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
@@ -70,7 +69,7 @@ export default function Datacatalog() {
             </div>
           </div>
         </motion.section>
-        <section className="mt-24 grid grid-flow-row mx-4">
+        <section className="mx-4 mt-24 grid grid-flow-row">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Problem</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
             Vendor documentation, dataset inventory, and accounting systems
@@ -78,7 +77,7 @@ export default function Datacatalog() {
           </p>
         </section>
 
-        <section className="mt-16 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12">
+        <section className="mx-4 mt-16 grid grid-flow-row lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1 mb-4">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               1. Ambiguous
@@ -94,7 +93,7 @@ export default function Datacatalog() {
               2. Inaccessible
             </p>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            How do I request a new license?
+              How do I request a new license?
             </p>
           </div>
 
@@ -103,16 +102,17 @@ export default function Datacatalog() {
               1. Low visibility
             </p>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            What data does my team use?
+              What data does my team use?
             </p>
           </div>
         </section>
 
-        <motion.section className="mt-24 mx-4"
-           initial="hide"
-           whileInView="show"
-           exit="exit"
-           variants={introWelcomeVariants}
+        <motion.section
+          className="mx-4 mt-24"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introWelcomeVariants}
         >
           <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
             Opportunity
@@ -123,7 +123,7 @@ export default function Datacatalog() {
           </p>
         </motion.section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Interviews
           </h2>
@@ -134,12 +134,11 @@ export default function Datacatalog() {
           </p>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Design Process
           </h2>
           <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-7 lg:gap-2">
-
             <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
               <li className="font-bold">Understand</li>
               <li>Collect pain points</li>
@@ -197,11 +196,11 @@ export default function Datacatalog() {
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Goals</h2>
         </section>
 
-        <section className="mt-16 mx-4 grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
+        <section className="mx-4 mt-16 grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1">
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
               1. Discovery
@@ -216,7 +215,8 @@ export default function Datacatalog() {
               2. Easy Access
             </p>
             <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Provide component and table to easily request access to new datasets.
+              Provide component and table to easily request access to new
+              datasets.
             </p>
           </div>
 
@@ -231,7 +231,7 @@ export default function Datacatalog() {
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Hi-fi Wireframes
           </h2>
@@ -239,147 +239,208 @@ export default function Datacatalog() {
 
         <section className="mt-16 grid lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1 mx-4 mb-4">
-            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-2_g6dxwu.png' width={700} height={700} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-2_g6dxwu.png"
+              width={700}
+              height={700}
+            />
           </div>
 
           <div className="col-span-1 mx-4 mb-4">
-            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload//v1685483981/BAM/bam-wire-1_oaixgw.png' width={700} height={700} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload//v1685483981/BAM/bam-wire-1_oaixgw.png"
+              width={700}
+              height={700}
+            />
           </div>
 
           <div className="col-span-1 mx-4 mb-4">
-            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-3_sb9890.png' width={700} height={700} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-3_sb9890.png"
+              width={700}
+              height={700}
+            />
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Onboarding
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
+        <section className="mx-4 mt-16 grid grid-cols-1">
           <div className="hidden sm:hidden md:hidden lg:block">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692478871/BAM/mobile-onboarding_01_lompy6.png' width={1460} height={600} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1692478871/BAM/mobile-onboarding_01_lompy6.png"
+              width={1460}
+              height={600}
+            />
           </div>
 
           <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479389/BAM/mobile-onboarding_mobile_j6wtyn.png' width={570} height={4400} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479389/BAM/mobile-onboarding_mobile_j6wtyn.png"
+              width={570}
+              height={4400}
+            />
           </div>
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Discovery
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <div className="hidden sm:hidden md:hidden lg:block">
-        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037804/Mobile/mobile-selection_hjuo1e.png' width={1460} height={600} />
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <div className="hidden sm:hidden md:hidden lg:block">
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037804/Mobile/mobile-selection_hjuo1e.png"
+              width={1460}
+              height={600}
+            />
           </div>
 
           <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479938/BAM/mobile-selection-sized_b7krdw.png' width={570} height={4400} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479938/BAM/mobile-selection-sized_b7krdw.png"
+              width={570}
+              height={4400}
+            />
           </div>
-
         </section>
 
-
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Centralized Searching
           </h2>
         </section>
 
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <div className="hidden sm:hidden md:hidden lg:block">
-        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png' width={1460} height={600} />
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <div className="hidden sm:hidden md:hidden lg:block">
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png"
+              width={1460}
+              height={600}
+            />
           </div>
 
-          
           <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692480143/BAM/mobile-search-sized_gwluga.png' width={570} height={4400} />
+            <Image
+              src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1692480143/BAM/mobile-search-sized_gwluga.png"
+              width={570}
+              height={4400}
+            />
           </div>
-          
         </section>
 
-
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Typography
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png' width={1460} height={600} />
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image
+            src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png"
+            width={1460}
+            height={600}
+          />
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996790/BAM/Typography-body_hwouot.png' width={1460} height={600} />
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <Image
+            src="https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996790/BAM/Typography-body_hwouot.png"
+            width={1460}
+            height={600}
+          />
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Atomic React Component Library
           </h2>
           <p className="mb-4 mt-4 text-lg text-neutral-400 dark:text-neutral-400">
-            I designed and contributed development of a comprehensive React Storybook. All components adhere to the principles of atomic design.
+            I designed and contributed development of a comprehensive React
+            Storybook. All components adhere to the principles of atomic design.
           </p>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
+        <section className="mx-4 mt-16 grid grid-cols-1">
           <Image src={componentLibrary} width={1460} height={600} />
         </section>
 
-        <section className="mt-24 mx-4">
+        <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
             Data Catalog - Desktop
           </h2>
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <h3 className="mb-4 text-base dark:text-white">
             Welcome page - desktop
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'} width={1460} height={571} />
-        
+          <Image
+            src={
+              'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'
+            }
+            width={1460}
+            height={571}
+          />
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
-            Dataset detail - Desktop (All information has been replaced for privacy)
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <h3 className="mb-4 text-base dark:text-white">
+            Dataset detail - Desktop (All information has been replaced for
+            privacy)
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'} width={1460} height={571} />
-        
+          <Image
+            src={
+              'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'
+            }
+            width={1460}
+            height={571}
+          />
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <h3 className="mb-4 text-base dark:text-white">
             Custom document upload - Desktop
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'} width={1460} height={571} />
-        
+          <Image
+            src={
+              'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'
+            }
+            width={1460}
+            height={571}
+          />
         </section>
 
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
-           Dataset search - Desktop
+        <section className="mx-4 mt-16 grid grid-cols-1">
+          <h3 className="mb-4 text-base dark:text-white">
+            Dataset search - Desktop
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'} width={1460} height={571} />
-        
+          <Image
+            src={
+              'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'
+            }
+            width={1460}
+            height={571}
+          />
         </section>
 
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-           Results
-          </h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-          Increased dataset onboarding by 50%. Platform facilitated collection, categorization, and distribution of 3,000+ datasets, increasing user engagement by 20%.
-          </p>
+        <section className="mx-4 mt-24">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
+          <ul className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+           <li className="list-disc">Led UI/UX development of the Data Intelligence finance platform that enabled the firm to increase dataset offerings by 50%. Platform facilitated workflow collection, categorization, and distribution of 3,000+ datasets, increasing user engagement in the product by 20%.</li>
+           <li className="list-disc">Conducted extensive qualitative user research to gain customer insights into users' financial experience, pain points, and analytical behaviors. Designed Data Intelligence design system, resulting in a 25% increase in Net Promoter Score among 1,000 customers.</li>
+           <li className="list-disc">Implemented an analytics dashboard that provided real-time insights into user behavior and product performance, resulting in re-prioritization of product strategy and flexible initiatives.</li>
+           <li className="list-disc">Designed reusable ReactJS UI components for a component library. Contributed designs for  developer tools.</li>
+           <li className="list-disc">Designed and developed wireframes, mockups, and prototypes for AI product testing.</li>
+           <li className="list-disc">Collaborated with PMs for advocacy of product culture based on outcome rather than shipping features.</li>
+          </ul>
         </section>
-
 
         <Contact />
       </Container>

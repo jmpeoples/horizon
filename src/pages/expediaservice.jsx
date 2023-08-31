@@ -274,9 +274,13 @@ export default function Expediaservice() {
       
         <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            25% reduction in manual requests.
-          </p>
+          <ul className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+          <li className="list-disc">Worked in collaboration with cross-functional team of designers, developers, and PMs to craft an operating system to deploy microservices. Designed and developed initial prototype. </li>
+          <li className="list-disc">Led qualitative research sessions and developed product use cases for design systems.</li>
+          <li className="list-disc">Crafted ReactJS/Node.js-based network request product that resulted in a 25% reduction in manual requests.</li>
+          <li className="list-disc">Worked independently on product prioritization analytics tool. Dashboard encouraged innovative solutions focused on improving user acquisition. </li>
+          <li className="list-disc">Collaborated with product managers to conduct research to articulate user needs. Maintained design systems that powered intuitive user experiences and removed ambiguity. </li>
+          </ul>
         </section>
         <Contact />
       </Container>

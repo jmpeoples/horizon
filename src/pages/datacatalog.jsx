@@ -375,9 +375,9 @@ export default function Datacatalog() {
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
            Results
           </h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-          Increased dataset onboarding by 50%. Platform facilitated collection, categorization, and distribution of 3,000+ datasets, increasing user engagement by 20%.
-          </p>
+          <ul className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+            <li className="list-disc">Led UI/UX development of the Data Intelligence finance platform that enabled the firm to increase dataset offerings by 50%. Platform facilitated workflow collection, categorization, and distribution of 3,000+ datasets, increasing user engagement in the product by 20%.</li>
+          </ul>
         </section>
 
 

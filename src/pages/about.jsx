@@ -165,10 +165,19 @@ export default function About() {
                 <li className="font-bold">Tools</li>
                 <li>Adobe Illustrator</li>
                 <li>Adobe Photoshop</li>
+                <li>Adobe XD</li>
+                <li>Adobe Premiere</li>
+                <li>Adobe After Effects</li>
                 <li>Pencil and Paper</li>
                 <li>Figma</li>
                 <li>Blender</li>
+                <li>Google Analytics</li>
+                <li>Storybook</li>
+                <li>Miro</li>
+                <li>AWS</li>
                 <li>Unity</li>
+                <li>Microsoft Excel</li>
+                <li>Miro</li>
                 <li>Davinci Resolve</li>
               </ul>
 

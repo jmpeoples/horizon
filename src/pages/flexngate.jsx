@@ -258,9 +258,12 @@ export default function Flexngate() {
 
         <section className="mx-4 mt-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Product saved company $200,000/year
-          </p>
+          <ul className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+          <li className="list-disc">Implemented visual designs for assembly portal. </li>
+          <li className="list-disc">Used instructional material to craft storyboards for flexible promotional videos.</li>
+          <li className="list-disc">Visual designs adopted into design systems</li>
+          <li className="list-disc">Designed wireframes and prototypes for innovative scrap tracking interface which generated 200,000 / year in savings.</li>
+          </ul>
         </section>
         <Contact />
       </Container>

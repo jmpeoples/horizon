@@ -75,7 +75,7 @@ export function SectionSingle({
     <section aria-labelledby={id} className="mx-4 lg:mx-0">
       <motion.div
         id={id}
-        className="mt-52 grid sm:grid-flow-row md:grid-cols-3 md:gap-12"
+        className="mt-36 grid sm:grid-flow-row md:grid-cols-3 md:gap-12"
         initial="hide"
         whileInView="show"
         exit="exit"

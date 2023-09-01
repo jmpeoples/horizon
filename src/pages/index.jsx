@@ -117,49 +117,19 @@ export default function Home() {
           </div>
         </motion.div>
         <motion.div
-          className="flex flex-col items-center mx-4 mt-32 rounded-full px-4 py-2 text-lg text-white lg:mx-0"
+          className="flex flex-col items-center mx-4 mt-8 rounded-full px-4 py-2 text-lg text-white lg:mx-0"
           initial="hide"
           whileInView="show"
           exit="exit"
           variants={introWelcomeVariants}
         >
-          <Link
-            href="#selectedworks"
-            className="hover:bg-amber-100 rounded-full"
-          >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="h-16 w-16"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              className="dark:stroke-amber-400 stroke-neutral-950"
-            />
-          </svg>
-          </Link>
+         <h3 className="mt-16 mb-0 text-sm font-bold dark:text-white lg:mx-0 lg:text-sm">Selected Works</h3>
         </motion.div>
-
-        <motion.h1
-          id="selectedworks"
-          className="mx-4 mt-64 text-4xl font-bold dark:text-white lg:mx-0"
-          initial="hide"
-          whileInView="show"
-          exit="exit"
-          variants={introHeaderVariants}
-        >
-          Selected Works
-        </motion.h1>
         <div className="hidden sm:hidden md:hidden lg:block">
         <SectionSingle
           title={'Bustr'}
           description={
-            'Coming Soon. Shop and search for homes by closing costs.'
+            'Revolutionize the way homebuyers navigate the closing process and timeline. Add transparency by shopping for homes by closing costs. Coming soon.'
           }
           topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
         ></SectionSingle>

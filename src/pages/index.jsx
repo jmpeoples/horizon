@@ -105,7 +105,7 @@ export default function Home() {
           
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://github.com/jmpeoples/horizon"
+              href="https://github.com/jmpeoples?tab=repositories"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />

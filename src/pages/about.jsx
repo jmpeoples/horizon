@@ -159,6 +159,8 @@ export default function About() {
                 <li>A/B Testing</li>
                 <li>Wireframes</li>
                 <li>Visual Design</li>
+                <li>Video Editing</li>
+                <li>Audio Editing</li>
               </ul>
 
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">

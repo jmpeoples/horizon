@@ -4,7 +4,7 @@ import { Container } from '@/components/Container'
 import componentLibrary from '@/images/photos/react-component-library.png'
 import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
-import { introWelcomeVariants } from '@/components/Section'
+import { introWelcomeVariants, introHeaderVariants } from '@/components/Section'
 import mixpanel from 'mixpanel-browser';
 
 // Replace YOUR_TOKEN with your Project Token
@@ -25,13 +25,32 @@ export default function Datacatalog() {
         <meta name="description" content="Recent work." />
       </Head>
       <Container>
-        <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
+        {/* <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
           <div className="mx-auto px-4 py-24 text-left lg:py-56">
             <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
               Designing the <br />
               Dataset Catalog
             </h1>
           </div>
+        </section> */}
+         <motion.p
+          className="mx-4 text-2xl font-bold text-center dark:text-white lg:mx-0 lg:text-4xl"
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
+        >
+          Designing the <br />
+              Dataset Catalog
+        </motion.p>
+        <section className='flex justify-center items-center mt-24'>
+        <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695247718/Catalog-Search-Home-upgraded_cnsyzl.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={800}
+              height={494}
+            />
         </section>
         <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
            initial="hide"
@@ -73,9 +92,18 @@ export default function Datacatalog() {
         <section className="mt-24 grid grid-flow-row mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Problem</h2>
           <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Vendor documentation, dataset inventory, and accounting systems
-            lived in siloed areas run by separate teams.
+          The data team presently manages multiple separate spreadsheets that encompass information about pipeline vendors, active vendors, and other valuable metadata such as cost, descriptions, and rankings. Ideally, we aim to consolidate and centralize this data in a single location to serve the broader data intelligence team and select individuals more effectively.
           </p>
+        </section>
+
+        <section className='flex justify-center items-center mt-24'>
+        <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695248027/BAM/catalog-problem-frame_rmxv51.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={800}
+              height={494}
+            />
         </section>
 
         <section className="mt-16 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12">

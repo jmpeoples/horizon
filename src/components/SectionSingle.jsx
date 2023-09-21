@@ -61,12 +61,9 @@ export const internalVariant = {
 
 export function SectionSingle({
   title,
+  rightImage,
   description,
   topLeft,
-  topRight,
-  bottomLeft,
-  bottomRight,
-  pageLink,
   children,
 }) {
   let id = useId()
@@ -81,7 +78,9 @@ export function SectionSingle({
         exit="exit"
         variants={introHeaderVariants}
       >
-        <div className="col-span-1">
+        {rightImage == true ? (
+          <>
+          <div className="col-span-1">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">{title}</h2>
           <p className="mt-12 mb-4 text-lg text-neutral-400 dark:text-neutral-400">
             {description}
@@ -98,6 +97,28 @@ export function SectionSingle({
             />
           </div>
         </div>
+        </>
+        ): (
+          <>
+          <div className="sm:col-span-1 lg:col-span-2">
+          <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-1">
+            <Image
+              src={topLeft}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={774}
+              height={494}
+            />
+          </div>
+        </div>
+            <div className="col-span-1">
+          <h2 className="mt-12 text-2xl font-bold dark:text-white">{title}</h2>
+          <p className="mt-12 mb-4 text-lg text-neutral-400 dark:text-neutral-400">
+            {description}
+          </p>
+        </div>
+          </>
+        )}
       </motion.div>
     </section>
   )

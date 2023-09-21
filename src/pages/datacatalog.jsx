@@ -6,6 +6,7 @@ import Contact from '@/components/Contact'
 import { motion } from 'framer-motion'
 import { introWelcomeVariants, introHeaderVariants } from '@/components/Section'
 import mixpanel from 'mixpanel-browser';
+import { SectionSingle } from '@/components/SectionSingle'
 
 // Replace YOUR_TOKEN with your Project Token
 mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
@@ -439,11 +440,40 @@ The central thread connecting these themes is time, or rather the scarcity of it
           </div>
         </motion.section>
 
+        <SectionSingle
+          title={'Discovery'}
+          rightImage={false}
+          description={
+            'Find out which datasets hold the most value and explore our extensive in-house data collection. Your data-driven success story begins here!"'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png"}
+        ></SectionSingle>
+        
+
+        <SectionSingle
+          title={'Access'}
+          rightImage={true}
+          description={
+            'Unlock the key to effortless data access and license acquisition. Conveniently tap into our data resources.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695314593/BAM/catalog_access_ilvswz.png"}
+        ></SectionSingle>
+
+
+        <SectionSingle
+          title={'Request Data'}
+          rightImage={false}
+          description={
+            'Seize the opportunity to enhance your data-driven endeavors by effortlessly requesting new licenses.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695314583/BAM/catalog_request_data_xn4lah.png"}
+        ></SectionSingle>
+
 
 
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Onboarding
+            Onboarding - Mobile
           </h2>
         </section>
 
@@ -459,7 +489,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
 
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Discovery
+            Discovery - Mobile
           </h2>
         </section>
 
@@ -477,7 +507,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
 
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Centralized Searching
+            Centralized Searching - Mobile
           </h2>
         </section>
 
@@ -495,71 +525,14 @@ The central thread connecting these themes is time, or rather the scarcity of it
         </section>
 
 
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Typography
-          </h2>
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png' alt='' width={1460} height={600} />
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996790/BAM/Typography-body_hwouot.png' alt='' width={1460} height={600} />
-        </section>
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Atomic React Component Library
-          </h2>
-          <p className="mb-4 mt-4 text-lg text-neutral-400 dark:text-neutral-400">
-            I designed and contributed development of a comprehensive React Storybook. All components adhere to the principles of atomic design.
-          </p>
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src={componentLibrary} width={1460} height={600} />
-        </section>
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Data Catalog - Desktop
-          </h2>
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
-            Welcome page - desktop
-          </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'} alt='' width={1460} height={571} />
-        
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
-            Dataset detail - Desktop (All information has been replaced for privacy)
-          </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'} alt='' width={1460} height={571} />
-        
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
-            Custom document upload - Desktop
-          </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'} alt='' width={1460} height={571} />
-        
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <h3 className="text-base mb-4 dark:text-white">
-           Dataset search - Desktop
-          </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'} alt='' width={1460} height={571} />
-        
-        </section>
-
+        <SectionSingle
+          title={'Atomic React Component Library'}
+          rightImage={false}
+          description={
+            'The byproduct was the development of a comprehensive React Storybook. All components adhere to the principles of atomic design.'
+          }
+          topLeft={componentLibrary}
+        ></SectionSingle>
 
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">

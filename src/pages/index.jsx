@@ -159,6 +159,7 @@ export default function Home() {
          <div className="hidden sm:hidden md:hidden lg:block">
         <SectionSingle
           title={'Bustr'}
+          rightImage={true}
           description={
             'Revolutionize the way homebuyers navigate the closing process and timeline. Add transparency by shopping for homes by closing costs. Coming soon.'
           }

@@ -95,7 +95,7 @@ export default function Datacatalog() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            The data team presently manages multiple separate spreadsheets that encompass information about pipeline vendors, active vendors, and other valuable metadata such as cost, descriptions, and rankings. Ideally, we aim to consolidate and centralize this data in a single location to serve the broader data intelligence team and select individuals more effectively.
+            {`The data team presently manages multiple separate spreadsheets that encompass information about pipeline vendors, active vendors, and other valuable metadata such as cost, descriptions, and rankings. Ideally, we aim to consolidate and centralize this data in a single location to serve the broader data intelligence team and select individuals more effectively.`}
 
             </p>
           </div>
@@ -136,7 +136,7 @@ export default function Datacatalog() {
               Sector Data Analysis
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            “Make clients lives easier,with anything that deals with data”
+            {`“Make clients lives easier,with anything that deals with data”`}
             </p>
           </div>
 
@@ -154,7 +154,7 @@ export default function Datacatalog() {
               Data Sourcing
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            “How can I help users find data?”
+            {`“How can I help users find data?”`}
             </p>
           </div>
 
@@ -172,7 +172,7 @@ export default function Datacatalog() {
             Investment Data Analysis
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            “How can I help users understand the data they collect?”
+            {`“How can I help users understand the data they collect?”`}
             </p>
           </div>        
         </section>
@@ -182,7 +182,7 @@ export default function Datacatalog() {
              Goals
             </h2>
             <p className="mt-12 text-2xl text-neutral-400 text-center dark:text-white">
-            We established fresh objectives and guiding principles aimed at addressing a central question: "How can we optimize the delivery of the most valuable and diverse dataset collection to our users?"
+            {`We established fresh objectives and guiding principles aimed at addressing a central question: "How can we optimize the delivery of the most valuable and diverse dataset collection to our users?"`}
           </p>
         </section>
 
@@ -287,7 +287,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
             <div className='flex justify-center'>
             <Image
               src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310155/BAM/cart-outline_n5ry5g.png"}
-              alt="inventory image"
+              alt="inventory"
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
               height={150}
@@ -305,7 +305,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
             <div className='flex justify-center'>
             <Image
               src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310156/BAM/eye-outline_e248lg.png"}
-              alt="eye image"
+              alt="eyeimage"
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
               height={150}
@@ -357,7 +357,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
             <div className='flex justify-center'>
             <Image
               src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310155/BAM/chart-outline_wsvcve.png"}
-              alt="evaluation image"
+              alt="evaluationimage"
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
               height={150}
@@ -374,7 +374,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
             <div className='flex justify-center'>
             <Image
               src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310154/BAM/badge-check-outline_hzrerb.png"}
-              alt="checkmark image"
+              alt="checkmarkimage"
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
               height={150}
@@ -410,7 +410,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
         <section className="mt-24 mx-4">
         <Image
               src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310611/BAM/catalog_design_cluster_gdt35b.png"}
-              alt="design showcase"
+              alt="designshowcase"
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={1388}
               height={838}
@@ -449,11 +449,11 @@ The central thread connecting these themes is time, or rather the scarcity of it
 
         <section className="mt-16 grid grid-cols-1 mx-4">
           <div className="hidden sm:hidden md:hidden lg:block">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692478871/BAM/mobile-onboarding_01_lompy6.png' width={1460} height={600} />
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692478871/BAM/mobile-onboarding_01_lompy6.png' alt='' width={1460} height={600} />
           </div>
 
           <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479389/BAM/mobile-onboarding_mobile_j6wtyn.png' width={570} height={4400} />
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479389/BAM/mobile-onboarding_mobile_j6wtyn.png' alt='' width={570} height={4400} />
           </div>
         </section>
 
@@ -465,11 +465,11 @@ The central thread connecting these themes is time, or rather the scarcity of it
 
         <section className="mt-16 grid grid-cols-1 mx-4">
         <div className="hidden sm:hidden md:hidden lg:block">
-        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037804/Mobile/mobile-selection_hjuo1e.png' width={1460} height={600} />
+        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037804/Mobile/mobile-selection_hjuo1e.png' alt='' width={1460} height={600} />
           </div>
 
           <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479938/BAM/mobile-selection-sized_b7krdw.png' width={570} height={4400} />
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479938/BAM/mobile-selection-sized_b7krdw.png' alt='' width={570} height={4400} />
           </div>
 
         </section>
@@ -484,12 +484,12 @@ The central thread connecting these themes is time, or rather the scarcity of it
 
         <section className="mt-16 grid grid-cols-1 mx-4">
         <div className="hidden sm:hidden md:hidden lg:block">
-        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png' width={1460} height={600} />
+        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png' alt='' width={1460} height={600} />
           </div>
 
           
           <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692480143/BAM/mobile-search-sized_gwluga.png' width={570} height={4400} />
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692480143/BAM/mobile-search-sized_gwluga.png' alt='' width={570} height={4400} />
           </div>
           
         </section>
@@ -502,11 +502,11 @@ The central thread connecting these themes is time, or rather the scarcity of it
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png' width={1460} height={600} />
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996791/BAM/Typography-headings_jewdwn.png' alt='' width={1460} height={600} />
         </section>
 
         <section className="mt-16 grid grid-cols-1 mx-4">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996790/BAM/Typography-body_hwouot.png' width={1460} height={600} />
+          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1690996790/BAM/Typography-body_hwouot.png' alt='' width={1460} height={600} />
         </section>
 
         <section className="mt-24 mx-4">
@@ -532,7 +532,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
         <h3 className="text-base mb-4 dark:text-white">
             Welcome page - desktop
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-home_luwa1t.png'} alt='' width={1460} height={571} />
         
         </section>
 
@@ -540,7 +540,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
         <h3 className="text-base mb-4 dark:text-white">
             Dataset detail - Desktop (All information has been replaced for privacy)
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-details_afmm7d.png'} alt='' width={1460} height={571} />
         
         </section>
 
@@ -548,7 +548,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
         <h3 className="text-base mb-4 dark:text-white">
             Custom document upload - Desktop
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-modal_mmmc0t.png'} alt='' width={1460} height={571} />
         
         </section>
 
@@ -556,7 +556,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
         <h3 className="text-base mb-4 dark:text-white">
            Dataset search - Desktop
           </h3>
-          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'} width={1460} height={571} />
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png'} alt='' width={1460} height={571} />
         
         </section>
 

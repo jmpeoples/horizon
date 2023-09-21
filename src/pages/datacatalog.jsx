@@ -106,34 +106,74 @@ export default function Datacatalog() {
             />
         </section>
 
+        <section className='col-span-1'>
+        <h2 className="mt-12 text-2xl font-bold text-center dark:text-white">
+              Updating User Personas
+            </h2>
+            <p className="mt-12 text-lg text-neutral-400 text-center dark:text-neutral-400">
+            A significant portion of my effort was dedicated to refining our understanding of user personas. I actively engaged in conducting multiple interviews each week. Throughout these interviews, my approach was to encourage users to guide me through their daily tasks and responsibilities. My objective was not to become an expert in their field but rather to swiftly immerse myself in their experiences, allowing me to identify pain points and cultivate a deeper sense of empathy for their needs.
+          </p>
+        </section>
+
+
         <section className="mt-16 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12">
           <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695306807/BAM/SectorDataAnalysis_Profile_rstvt5.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Sector Data Analysis
+            </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              1. Ambiguous
-            </p>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              What are the most valuable datasets in my industry and what
-              datasets do we own in-house?
+            “Make clients lives easier,with anything that deals with data”
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695307592/BAM/DataSourcing_Profile_qgdxvr.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Data Sourcing
+            </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              2. Inaccessible
-            </p>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            How do I request a new license?
+            “How can I help users find data?”
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695307592/BAM/InvestmentData_Profile_bdglyi.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+            Investment Data Analysis
+            </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              1. Low visibility
-            </p>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            What data does my team use?
+            “How can I help users understand the data they collect?”
             </p>
           </div>
+
+        
+
+        
         </section>
 
         <motion.section className="mt-24 mx-4"

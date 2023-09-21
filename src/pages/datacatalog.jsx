@@ -534,21 +534,66 @@ The central thread connecting these themes is time, or rather the scarcity of it
           topLeft={componentLibrary}
         ></SectionSingle>
 
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-           Results
-          </h2>
-          <ul className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            <li className="list-disc">Led UI/UX development of the Data Intelligence finance platform that enabled the firm to increase dataset offerings by 50%. Platform facilitated workflow collection, categorization, and distribution of 3,000+ datasets, increasing user engagement in the product by 20%.</li>
-            <li className="list-disc">{`Conducted extensive qualitative user research to gain customer insights into users' financial experience, pain points, and analytical behaviors. Designed Data Intelligence design system, resulting in a 25% increase in Net Promoter Score among 1,000 customers.`}</li>
-            <li className="list-disc">Implemented an analytics dashboard that provided real-time insights into user behavior and product performance, resulting in re-prioritization of product strategy and flexible initiatives.</li>
-           <li className="list-disc">Designed reusable ReactJS UI components for a component library. Contributed designs for  developer tools.</li>
-           <li className="list-disc">Designed and developed wireframes, mockups, and prototypes for AI product testing.</li>
-           <li className="list-disc">Collaborated with PMs for advocacy of product culture based on outcome rather than shipping features.</li>
-          </ul>
-        </section>
+    <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+          <div className="col-span-1">
+            <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            06 - Impact
+            </h2>
+          </div>
+          <div className="col-span-2">
+            <p className="mt-12 text-2xl text-neutral-400 dark:text-white">
+            {`We received an overwhelmingly positive response from the community of data engineers and sector data analysts, which has been truly fantastic.`}
 
+            </p>
+          </div>
+        </motion.section>
 
+        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+           <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+              <h2 className="text-8xl mb-8 font-bold dark:text-white">
+                50%
+              </h2>
+            </div>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              {`Elevated Data Experience: A 50% Surge in Our Diverse Dataset Selection!`}
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+              <h2 className="text-8xl mb-8 font-bold dark:text-white">
+                20%
+              </h2>
+            </div>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              {`Amplified user engagement experience with a remarkable 20% increase.`}
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+              <h2 className="text-8xl mb-8 font-bold dark:text-white">
+                3000+
+              </h2>
+            </div>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              {`Our platform effortlessly manages, organizes, and shares over 3,000 datasets.`}
+            </p>
+          </div>
+        </motion.section>
+
+        
         <Contact />
       </Container>
     </>

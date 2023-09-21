@@ -272,7 +272,8 @@ The central thread connecting these themes is time, or rather the scarcity of it
               Themes
             </h2>
             <p className="mt-12 text-xl text-neutral-400 text-center dark:text-neutral-400">
-            Our research yielded positive results, allowing us to identify a shared workflows that effectively streamlines the data delivery process for portfolio managers.          </p>
+            Our research yielded positive results, allowing us to identify a shared workflows that effectively streamlines the data delivery process for portfolio managers.
+            </p>
         </section>
 
 
@@ -407,24 +408,38 @@ The central thread connecting these themes is time, or rather the scarcity of it
 
 
         <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Hi-fi Wireframes
-          </h2>
+        <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310611/BAM/catalog_design_cluster_gdt35b.png"}
+              alt="design showcase"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={1388}
+              height={838}
+            />
+
+<p className="mt-12 text-2xl text-neutral-400 italic text-center dark:text-white">
+“I can finally see all the datasets in one place, this is fantastic.”  </p>
         </section>
 
-        <section className="mt-16 grid lg:grid-cols-3 lg:gap-12">
-          <div className="col-span-1 mx-4 mb-4">
-            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-2_g6dxwu.png' width={700} height={700} />
-          </div>
 
-          <div className="col-span-1 mx-4 mb-4">
-            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload//v1685483981/BAM/bam-wire-1_oaixgw.png' width={700} height={700} />
+        <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+          <div className="col-span-1">
+            <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            05 - Launch
+            </h2>
           </div>
+          <div className="col-span-2">
+            <p className="mt-12 text-2xl text-neutral-400 dark:text-white">
+            The biggest update to the data intelligence platform in the last three years. 
+             </p>
+          </div>
+        </motion.section>
 
-          <div className="col-span-1 mx-4 mb-4">
-            <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/bam-wire-3_sb9890.png' width={700} height={700} />
-          </div>
-        </section>
+
 
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">

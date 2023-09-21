@@ -25,14 +25,6 @@ export default function Datacatalog() {
         <meta name="description" content="Recent work." />
       </Head>
       <Container>
-        {/* <section className="bg-gray-500 bg-[url('https://res.cloudinary.com/ddirkf5xq/image/upload/v1685396317/Catalog-banner_1_a9wygu.png')] bg-center bg-no-repeat bg-blend-multiply">
-          <div className="mx-auto px-4 py-24 text-left lg:py-56">
-            <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
-              Designing the <br />
-              Dataset Catalog
-            </h1>
-          </div>
-        </section> */}
          <motion.p
           className="mx-4 text-2xl font-bold text-center dark:text-white lg:mx-0 lg:text-4xl"
           initial="hide"
@@ -52,7 +44,7 @@ export default function Datacatalog() {
               height={494}
             />
         </section>
-        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
+        <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
            initial="hide"
            whileInView="show"
            exit="exit"
@@ -60,7 +52,7 @@ export default function Datacatalog() {
         >
           <div className="col-span-1">
             <h2 className="mt-12 text-2xl font-bold dark:text-white">
-              Overview
+              01 - Overview
             </h2>
           </div>
           <div className="col-span-2">
@@ -89,12 +81,25 @@ export default function Datacatalog() {
             </div>
           </div>
         </motion.section>
-        <section className="mt-24 grid grid-flow-row mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">Problem</h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-          The data team presently manages multiple separate spreadsheets that encompass information about pipeline vendors, active vendors, and other valuable metadata such as cost, descriptions, and rankings. Ideally, we aim to consolidate and centralize this data in a single location to serve the broader data intelligence team and select individuals more effectively.
-          </p>
-        </section>
+      
+       <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+          <div className="col-span-1">
+            <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            02 - Challenge
+            </h2>
+          </div>
+          <div className="col-span-2">
+            <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+            The data team presently manages multiple separate spreadsheets that encompass information about pipeline vendors, active vendors, and other valuable metadata such as cost, descriptions, and rankings. Ideally, we aim to consolidate and centralize this data in a single location to serve the broader data intelligence team and select individuals more effectively.
+
+            </p>
+          </div>
+        </motion.section>
 
         <section className='flex justify-center items-center mt-24'>
         <Image
@@ -237,84 +242,169 @@ export default function Datacatalog() {
               Usage
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              What data does my team use and who uses it?
+              What data does my team, who uses it, and when do they use it?
             </p>
           </div>
         </motion.section>
 
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Interviews
-          </h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Conducted 5-10 interviews with sector data analyst, data management
-            managers, portfolio mangers and data sourcing strategist to collect
-            pain points and develop user journey.
-          </p>
-        </section>
 
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Design Process
-          </h2>
-          <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-7 lg:gap-2">
-
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Understand</li>
-              <li>Collect pain points</li>
-              <li>Market Research</li>
-              <li>Interal Workshop</li>
-              <li>User Survey</li>
-              <li>Collect Analytics</li>
-              <li>Journey Map</li>
-              <li>User Persona</li>
-            </ul>
-
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Define</li>
-              <li>Business goals</li>
-              <li>Refine requirements</li>
-              <li>Scope and timelines</li>
-              <li>Create user stories</li>
-            </ul>
-
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Ideate</li>
-              <li>Sketches</li>
-              <li>Sitemap</li>
-              <li>User Flow</li>
-              <li>Whiteboard Meetup</li>
-              <li>Lo-fi Wireframes</li>
-              <li>User testing</li>
-              <li>Track OKRs</li>
-            </ul>
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Design</li>
-              <li>Interaction</li>
-              <li>Hi-Fi Wireframes</li>
-              <li>Figma protoype</li>
-              <li>Track OKRs</li>
-              <li>Dev Handshake</li>
-            </ul>
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Test & Refine</li>
-              <li>A/B Testing</li>
-              <li>Q/A review</li>
-              <li>Analytics review</li>
-              <li>User Survey</li>
-              <li>Track OKRs</li>
-            </ul>
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Launch</li>
-              <li>Release to Prod</li>
-            </ul>
-            <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
-              <li className="font-bold">Monitor</li>
-              <li>Track OKRs</li>
-              <li>Collect Analytics</li>
-            </ul>
+        <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+          <div className="col-span-1">
+            <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            03 - Discovery
+            </h2>
           </div>
+          <div className="col-span-2">
+            <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+              
+The central thread connecting these themes is time, or rather the scarcity of it. The exchange of information necessitates effective communication across various teams, and even when it operates smoothly, it consumes valuable time that could be dedicated to more pressing tasks.
+            </p>
+          </div>
+        </motion.section>
+
+        <section className='col-span-1 mb-16'>
+        <h2 className="mt-32 text-2xl font-bold text-center dark:text-white">
+              Themes
+            </h2>
+            <p className="mt-12 text-xl text-neutral-400 text-center dark:text-neutral-400">
+            Our research yielded positive results, allowing us to identify a shared workflows that effectively streamlines the data delivery process for portfolio managers.          </p>
         </section>
+
+
+        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310155/BAM/cart-outline_n5ry5g.png"}
+              alt="inventory image"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Inventory
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+            Internal vs. Potential: Locate datasets and associated documentation either in the pipeline or currently in active status.
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310156/BAM/eye-outline_e248lg.png"}
+              alt="eye image"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Visibility
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              The source of truth for accounting and invoice.
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308189/BAM/unlock-outline_l0chp5.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+             Access
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+            Recording and illustrating the locations for accessing data within the BAM infrastructure.
+            </p>
+          </div>
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310156/BAM/newspapper-outline_n7hjwk.png"}
+              alt="newspaper"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Status
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              Receive notifications regarding dataset delivery and quality assurance status.
+            </p>
+          </div>
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310155/BAM/chart-outline_wsvcve.png"}
+              alt="evaluation image"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Evaluation
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              Establish standardized assessments for evaluating the quality of data sourcing.
+            </p>
+          </div>
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310154/BAM/badge-check-outline_hzrerb.png"}
+              alt="checkmark image"
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Enrichment
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              Deliver analytics to the dataset authoring side.
+            </p>
+          </div>
+        </motion.section>
+
+        <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
+           initial="hide"
+           whileInView="show"
+           exit="exit"
+           variants={introWelcomeVariants}
+        >
+          <div className="col-span-1">
+            <h2 className="mt-12 text-2xl font-bold dark:text-white">
+            04 - Solution
+            </h2>
+          </div>
+          <div className="col-span-2">
+            <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
+            Discover datasets faster than ever before as we empower you to uncover datasets and spark fresh ideas at lightning speed. Our platform lets clients explore a comprehensive range of data, revealing not only what's available but also who's in charge of it. With easy access insights, you'll be well-equipped to harness the potential of this data-driven world."            </p>
+          </div>
+        </motion.section>
+
 
         <section className="mt-24 mx-4">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">

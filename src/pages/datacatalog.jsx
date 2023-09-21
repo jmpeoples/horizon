@@ -169,26 +169,77 @@ export default function Datacatalog() {
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
             “How can I help users understand the data they collect?”
             </p>
-          </div>
-
-        
-
-        
+          </div>        
         </section>
 
-        <motion.section className="mt-24 mx-4"
+        <section className='col-span-1'>
+        <h2 className="mt-24 text-2xl font-bold text-center dark:text-white">
+             Goals
+            </h2>
+            <p className="mt-12 text-2xl text-neutral-400 text-center dark:text-white">
+            We established fresh objectives and guiding principles aimed at addressing a central question: "How can we optimize the delivery of the most valuable and diverse dataset collection to our users?"
+          </p>
+        </section>
+
+        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
            initial="hide"
            whileInView="show"
            exit="exit"
            variants={introWelcomeVariants}
         >
-          <h2 className="mt-12 text-2xl font-bold dark:text-amber-400">
-            Opportunity
-          </h2>
-          <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            How might we streamline the most valuable and diverse suite of
-            datasets to the users?
-          </p>
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308189/BAM/search-outline_mbbnbi.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Discovery
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+             What are the most valuable datasets, and what datasets do we have available in-house?
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308189/BAM/unlock-outline_l0chp5.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Access
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              How can I access the data and how do I request a new license?
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+            <Image
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308190/BAM/user-headset_wzwnv9.png"}
+              alt=""
+              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+              width={150}
+              height={150}
+            />
+            </div>
+            <h2 className="text-lg font-bold mt-8 dark:text-white">
+              Usage
+            </h2>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              What data does my team use and who uses it?
+            </p>
+          </div>
         </motion.section>
 
         <section className="mt-24 mx-4">
@@ -262,40 +313,6 @@ export default function Datacatalog() {
               <li>Track OKRs</li>
               <li>Collect Analytics</li>
             </ul>
-          </div>
-        </section>
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">Goals</h2>
-        </section>
-
-        <section className="mt-16 mx-4 grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
-          <div className="col-span-1">
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              1. Discovery
-            </p>
-            <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Search and showcase datasets in-house to teams.
-            </p>
-          </div>
-
-          <div className="col-span-1">
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              2. Easy Access
-            </p>
-            <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Provide component and table to easily request access to new datasets.
-            </p>
-          </div>
-
-          <div className="col-span-1">
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              3. Clear Usage
-            </p>
-            <p className="mb-4 text-lg text-neutral-400 dark:text-neutral-400">
-              Provide mangers and analysts with usage data. Expose datasets the
-              team is subscribed to and how much each dataset costs.
-            </p>
           </div>
         </section>
 

@@ -125,7 +125,19 @@ export default function Home() {
         >
          <h3 className="mt-16 mb-0 text-sm font-bold dark:text-white lg:mx-0 lg:text-sm">Selected Works</h3>
         </motion.div>
+
         <Section
+          title={'Data Catalog'}
+          description={
+            'Balyasny portfolio managers, sector data analysts, data managers need to know what data is available, where it lives, and how to access it quickly.'
+          }
+          topLeft={catalogWorks1}
+          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038228/Mobile/catalog-works-3-mobile_1_fkzwwm.png'}
+          bottomLeft={catalogWorks3}
+          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038417/Mobile/catalog-works-4-mobile_amjyu1.png'}
+          pageLink={'/datacatalog'}
+        ></Section>
+         <Section
           title={'Expanding Expedia'}
           description={
             'The ECP team needed to provide a unified method for employees, vendors and third-party call center agents to configure and request technical services.'
@@ -144,27 +156,7 @@ export default function Home() {
           }
           pageLink={'/expediaservice'}
         ></Section>
-      
-        <Section
-          title={'Data Catalog'}
-          description={
-            'Balyasny portfolio managers, sector data analysts, data managers need to know what data is available, where it lives, and how to access it quickly.'
-          }
-          topLeft={catalogWorks1}
-          topRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038228/Mobile/catalog-works-3-mobile_1_fkzwwm.png'}
-          bottomLeft={catalogWorks3}
-          bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038417/Mobile/catalog-works-4-mobile_amjyu1.png'}
-          pageLink={'/datacatalog'}
-        ></Section>
          <div className="hidden sm:hidden md:hidden lg:block">
-        <SectionSingle
-          title={'Bustr'}
-          rightImage={true}
-          description={
-            'Revolutionize the way homebuyers navigate the closing process and timeline. Add transparency by shopping for homes by closing costs. Coming soon.'
-          }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
-        ></SectionSingle>
         </div>
 
         <div className="block sm:hidden md:hidden lg:hidden">
@@ -196,8 +188,16 @@ export default function Home() {
           }
           pageLink={'/flexngate'}
         ></Section>
+         <SectionSingle
+          title={'Bustr'}
+          rightImage={true}
+          description={
+            'Revolutionize the way homebuyers navigate the closing process and timeline. Add transparency by shopping for homes by closing costs. Coming soon.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
+        ></SectionSingle>
           <Section
-          title={'The Shadow'}
+          title={'Game Develpoment'}
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
           }

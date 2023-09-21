@@ -402,7 +402,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Discover datasets faster than ever before as we empower you to uncover datasets and spark fresh ideas at lightning speed. Our platform lets clients explore a comprehensive range of data, revealing not only what's available but also who's in charge of it. With easy access insights, you'll be well-equipped to harness the potential of this data-driven world."            </p>
+           {`Discover datasets faster than ever before as we empower you to uncover datasets and spark fresh ideas at lightning speed. Our platform lets clients explore a comprehensive range of data, revealing not only what is available but also who is in charge of it. With easy access insights, you will be well-equipped to harness the potential of this data-driven world.`} </p>
           </div>
         </motion.section>
 
@@ -417,7 +417,7 @@ The central thread connecting these themes is time, or rather the scarcity of it
             />
 
 <p className="mt-12 text-2xl text-neutral-400 italic text-center dark:text-white">
-“I can finally see all the datasets in one place, this is fantastic.”  </p>
+ {`“I can finally see all the datasets in one place, this is fantastic.”`}  </p>
         </section>
 
 

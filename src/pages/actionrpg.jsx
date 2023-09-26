@@ -265,6 +265,13 @@ export default function Actionrpg() {
           <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1685547011/ActionRPG/Mammon_ai_AdobeExpress_y4jkq6.gif'} width={1460} height={571} />
         </section>
 
+        <section className="mx-4 mt-16 grid grid-cols-1">
+        <h3 className="text-base mb-4 dark:text-white">
+            Combat test
+          </h3>
+          <Image src={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038790/ActionRPG/SOM_feature_GIF_io5stg.gif'} width={1460} height={571} />
+        </section>
+
         <section className="mx-4 mt-24 mb-24">
           <h2 className="mt-12 text-2xl font-bold dark:text-white">Results</h2>
           <p className="mt-12 text-lg text-neutral-400 mb-8 dark:text-neutral-400">

@@ -243,7 +243,7 @@ export default function Datacatalog() {
               Usage
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              What data does my team, who uses it, and when do they use it?
+              What data does my team use, who uses it, and when do they use it?
             </p>
           </div>
         </motion.section>

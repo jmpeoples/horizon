@@ -39,8 +39,7 @@ export default function About() {
         <div className="col-span-2">
           <h2 className="mt-12 text-2xl lg:text-4xl font-bold dark:text-white">Hello World <br/> {`I’m Josiah.`}</h2>
           <p className="mt-12 mb-12 text-lg text-neutral-400 dark:text-neutral-400">
-          {`I’m a product designer based in Austin, with a focus on pixel perfect user-centered design.
-          Let me help you bridge the gap between design & tech.`}
+          {`As a product designer by day, I specialize in crafting pixel-perfect, user-centered designs. By night, I transform into a dedicated game developer on a quest to weave captivating narratives through dynamic combat mechanics. Beyond my professional roles, I proudly wear the hats of a husband to an incredible wife and a father to two young ones. On those cherished days off, you'll often spot me carving through snow-covered slopes on a snowboard. Let me be the bridge that connects customer-focused designs with the world of tech.`}
           </p>
 
           <motion.div className="mb-8 max-w-2xl"

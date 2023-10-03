@@ -134,7 +134,7 @@ export default function Datacatalog() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Sector Data Analysis
+              Sector Data Analyst
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
             {`“Make clients lives easier,with anything that deals with data”`}
@@ -170,7 +170,7 @@ export default function Datacatalog() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-            Investment Data Analysis
+            Investment Data Analyst
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
             {`“How can I help users understand the data they collect?”`}

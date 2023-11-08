@@ -104,7 +104,7 @@ export default function Datacatalog() {
 
         <section className='flex justify-center items-center mt-24'>
         <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695248027/BAM/catalog-problem-frame_rmxv51.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699458427/BAM/Solution_Gif_j3yh4t.gif"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={800}

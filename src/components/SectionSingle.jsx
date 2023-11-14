@@ -62,8 +62,10 @@ export const internalVariant = {
 export function SectionSingle({
   title,
   rightImage,
+  isLinkActive,
   description,
   topLeft,
+  pageLink,
   children,
 }) {
   let id = useId()
@@ -85,6 +87,23 @@ export function SectionSingle({
           <p className="mt-12 mb-4 text-lg text-neutral-400 dark:text-neutral-400">
             {description}
           </p>
+          {isLinkActive ? (
+              <a
+              type="button"
+              href={pageLink}
+              className="mb-16 mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-yellow-400 dark:text-white dark:hover:border-black dark:hover:text-black"
+            >
+              Learn More
+            </a>
+          ): (
+            <button
+            type="button"
+            className="mb-16 mt-8 rounded-full border-2 border-black border-white bg-black px-8 py-2 text-lg text-white hover:bg-gray-400 dark:text-white dark:hover:border-black dark:hover:text-black"
+          >
+            Coming Soon
+          </button>
+          )}
+
         </div>
         <div className="sm:col-span-1 lg:col-span-2">
           <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-1">

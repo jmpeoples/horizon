@@ -23,6 +23,7 @@ export function Footer() {
               <div className="flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                 <NavLink href="/datacatalog">Catalog</NavLink>
                 <NavLink href="/expediaservice">Expedia</NavLink>
+                <NavLink href="/expediacnrq">Firewall</NavLink>
                 <NavLink href="/actionrpg">Shadow</NavLink>
                 <NavLink href="/flexngate">Bumpers</NavLink>
                 <NavLink href="/about">About</NavLink>

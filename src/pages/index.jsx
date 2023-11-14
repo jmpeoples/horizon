@@ -137,6 +137,19 @@ export default function Home() {
           bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038417/Mobile/catalog-works-4-mobile_amjyu1.png'}
           pageLink={'/datacatalog'}
         ></Section>
+         
+        <SectionSingle
+          title={'Firewall Requests'}
+          rightImage={true}
+          isLinkActive={true}
+          pageLink={'/expediacnrq'}
+          description={
+            'Users can now submit, track, and manage network requests with unprecedented ease, eliminating unnecessary complexities and reducing the time required for each operation.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997812/CNRQ/Portfolio-Intro_thbhvy.png"}
+        ></SectionSingle>
+
+        
          <Section
           title={'Expanding Expedia'}
           description={

@@ -183,7 +183,7 @@ export default function ExpediaCNRQ() {
              Goals
             </h2>
             <p className="mt-12 text-2xl text-neutral-400 text-center dark:text-white">
-            {`Streamline the connectivity request process for a Virtual Private Cloud center`}
+            {`Streamline the connectivity request process for a Virtual Private Cloud by reducing margin of error rate.`}
           </p>
         </section>
 
@@ -204,17 +204,17 @@ export default function ExpediaCNRQ() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Discovery
+            Visibility
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-             What are the most valuable datasets, and what datasets do we have available in-house?
+             Users can not find IP range in string look up in service database.
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
             <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308189/BAM/unlock-outline_l0chp5.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310156/BAM/newspapper-outline_n7hjwk.png"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
@@ -222,17 +222,17 @@ export default function ExpediaCNRQ() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Access
+            Status
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              How can I access the data and how do I request a new license?
+            No list of subnets in service platform. 
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
             <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308190/BAM/user-headset_wzwnv9.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699999793/CNRQ/Exclamation_wpug9x.png"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
@@ -240,10 +240,10 @@ export default function ExpediaCNRQ() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Usage
+            Mitigation
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              What data does my team use, who uses it, and when do they use it?
+              Multiple user errors during request configuration.
             </p>
           </div>
         </motion.section>
@@ -262,133 +262,28 @@ export default function ExpediaCNRQ() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-              
-The central thread connecting these themes is time, or rather the scarcity of it. The exchange of information necessitates effective communication across various teams, and even when it operates smoothly, it consumes valuable time that could be dedicated to more pressing tasks.
+            I found that it was difficult for users to understand what information was necessary for the Network Services teams to success complete a firewall protocol. 
             </p>
           </div>
+
+
+          <div className="col-span-3">
+          <section className='flex justify-center items-center mt-24'>
+          
+          <Image
+                src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997820/CNRQ/JourneyAndSketch_c2dchl.png"}
+                alt=""
+                className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
+                width={800}
+                height={494}
+              />
+  
+          </section>
+        </div>
+
         </motion.section>
 
-        <section className='col-span-1 mb-16'>
-        <h2 className="mt-32 text-2xl font-bold text-center dark:text-white">
-              Themes
-            </h2>
-            <p className="mt-12 text-xl text-neutral-400 text-center dark:text-neutral-400">
-            Our research yielded positive results, allowing us to identify a shared workflows that effectively streamlines the data delivery process for portfolio managers.
-            </p>
-        </section>
-
-
-        <motion.section className="mt-32 grid grid-flow-row mx-4 lg:grid-cols-3 lg:gap-12"
-           initial="hide"
-           whileInView="show"
-           exit="exit"
-           variants={introWelcomeVariants}
-        >
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-            <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310155/BAM/cart-outline_n5ry5g.png"}
-              alt="inventory"
-              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
-              width={150}
-              height={150}
-            />
-            </div>
-            <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Inventory
-            </h2>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            Internal vs. Potential: Locate datasets and associated documentation either in the pipeline or currently in active status.
-            </p>
-          </div>
-
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-            <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310156/BAM/eye-outline_e248lg.png"}
-              alt="eyeimage"
-              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
-              width={150}
-              height={150}
-            />
-            </div>
-            <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Visibility
-            </h2>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              The source of truth for accounting and invoice.
-            </p>
-          </div>
-
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-            <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695308189/BAM/unlock-outline_l0chp5.png"}
-              alt=""
-              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
-              width={150}
-              height={150}
-            />
-            </div>
-            <h2 className="text-lg font-bold mt-8 dark:text-white">
-             Access
-            </h2>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            Recording and illustrating the locations for accessing data within the BAM infrastructure.
-            </p>
-          </div>
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-            <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310156/BAM/newspapper-outline_n7hjwk.png"}
-              alt="newspaper"
-              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
-              width={150}
-              height={150}
-            />
-            </div>
-            <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Status
-            </h2>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              Receive notifications regarding dataset delivery and quality assurance status.
-            </p>
-          </div>
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-            <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310155/BAM/chart-outline_wsvcve.png"}
-              alt="evaluationimage"
-              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
-              width={150}
-              height={150}
-            />
-            </div>
-            <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Evaluation
-            </h2>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              Establish standardized assessments for evaluating the quality of data sourcing.
-            </p>
-          </div>
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-            <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310154/BAM/badge-check-outline_hzrerb.png"}
-              alt="checkmarkimage"
-              className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
-              width={150}
-              height={150}
-            />
-            </div>
-            <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Enrichment
-            </h2>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              Deliver analytics to the dataset authoring side.
-            </p>
-          </div>
-        </motion.section>
+        
 
         <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
            initial="hide"
@@ -403,22 +298,23 @@ The central thread connecting these themes is time, or rather the scarcity of it
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-           {`Discover datasets faster than ever before as we empower you to uncover datasets and spark fresh ideas at lightning speed. Our platform lets clients explore a comprehensive range of data, revealing not only what is available but also who is in charge of it. With easy access insights, you will be well-equipped to harness the potential of this data-driven world.`} </p>
+           {`Our solution empowers technologists at Expedia by providing a seamless and efficient protocol for handling firewall connection requests, even in the absence of assigned tickets. With our new feature, Expedians can now easily request, track, and manage requests for IP ranges to datacenters through a user-friendly interface. This streamlined process ensures clarity and accountability, ultimately enhancing the overall efficiency of Expedia's technologists in managing firewall connections.`} </p>
           </div>
         </motion.section>
 
 
         <section className="mt-24 mx-4">
         <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695310611/BAM/catalog_design_cluster_gdt35b.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997841/CNRQ/MacBook_Pro_16-inch_Space_Black_Front_ggr5gu.png"}
               alt="designshowcase"
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={1388}
               height={838}
             />
 
-<p className="mt-12 text-2xl text-neutral-400 italic text-center dark:text-white">
- {`“I can finally see all the datasets in one place, this is fantastic.”`}  </p>
+<p className="mt-24 text-2xl text-neutral-400 italic text-center dark:text-white">
+ {`“Whitelisting my application is much
+easier with the new tool.””`}  </p>
         </section>
 
 
@@ -435,38 +331,38 @@ The central thread connecting these themes is time, or rather the scarcity of it
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-2xl text-neutral-400 dark:text-white">
-            The biggest update to the data intelligence platform in the last three years. 
+            Significantly reduced the risk of security breaches and enhances the overall resilience of your network infrastructure. 
              </p>
           </div>
         </motion.section>
 
         <SectionSingle
-          title={'Discovery'}
+          title={'Manage'}
           rightImage={false}
           description={
-            'Find out which datasets hold the most value and explore our extensive in-house data collection. Your data-driven success story begins here!"'
+            'Now, users can effortlessly monitor the status of their network requests in real-time, providing unprecedented visibility and control over the request lifecycle."'
           }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1685483981/BAM/catalog-search-final_wa464j.png"}
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997976/CNRQ/CNRQ-MyRequests_boafnr.png"}
         ></SectionSingle>
         
 
         <SectionSingle
-          title={'Access'}
+          title={'Request'}
           rightImage={true}
           description={
-            'Unlock the key to effortless data access and license acquisition. Conveniently tap into our data resources.'
+            'CNRQ drastically reduces the complexities associated with firewall requests, allowing users to submit requests within minutes.'
           }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695314593/BAM/catalog_access_ilvswz.png"}
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997938/CNRQ/CNRQ-NewRequest_mgcaiw.png"}
         ></SectionSingle>
 
 
         <SectionSingle
-          title={'Request Data'}
+          title={'Discover'}
           rightImage={false}
           description={
-            'Seize the opportunity to enhance your data-driven endeavors by effortlessly requesting new licenses.'
+            'Users can easily view and navigate through a detailed list of approved IP addresses they can connect to.'
           }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695314583/BAM/catalog_request_data_xn4lah.png"}
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1700000611/CNRQ/CNRQ-Splash_gmmuld.png"}
         ></SectionSingle>
 
 

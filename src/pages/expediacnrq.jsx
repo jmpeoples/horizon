@@ -95,7 +95,7 @@ export default function ExpediaCNRQ() {
 
           <div className="col-span-3 flex justify-center items-center">
             <h2 className="mt-12 text-xl font-bold dark:text-white">
-            The Problem
+            {`How might we streamline connecting a Virtual Private Cloud(VPC) to an existing Expedia data center?`}
             </h2>
             </div>
         </motion.section>
@@ -114,10 +114,11 @@ export default function ExpediaCNRQ() {
 
         <section className='col-span-1'>
         <h2 className="mt-12 text-2xl font-bold text-center dark:text-white">
-              Updating User Personas
+          Traveling with users
             </h2>
             <p className="mt-12 text-lg text-neutral-400 text-center dark:text-neutral-400">
-            A significant portion of my effort was dedicated to refining our understanding of user personas. I actively engaged in conducting multiple interviews each week. Throughout these interviews, my approach was to encourage users to guide me through their daily tasks and responsibilities. My objective was not to become an expert in their field but rather to swiftly immerse myself in their experiences, allowing me to identify pain points and cultivate a deeper sense of empathy for their needs.
+              {`The Goal:Simplify the connectivity process.`}<br/>
+ {`Firewall connectivity requests are a requirement to opening connections between environments. The firewalls and zone separation architecture improve Expedia's security stance and ensure continued compliance against PCI requirements. At Expedia the customer is responsible for identifying which connections their service requires and requesting them via the CNRQ process highlighted in this document. The CNRQ process was designed to provide the business and application teams with a method to perform firewall requests.`}
           </p>
         </section>
 

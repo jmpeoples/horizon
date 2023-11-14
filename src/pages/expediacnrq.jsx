@@ -366,70 +366,6 @@ easier with the new tool.””`}  </p>
         ></SectionSingle>
 
 
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Onboarding - Mobile
-          </h2>
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-          <div className="hidden sm:hidden md:hidden lg:block">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692478871/BAM/mobile-onboarding_01_lompy6.png' alt='' width={1460} height={600} />
-          </div>
-
-          <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479389/BAM/mobile-onboarding_mobile_j6wtyn.png' alt='' width={570} height={4400} />
-          </div>
-        </section>
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Discovery - Mobile
-          </h2>
-        </section>
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <div className="hidden sm:hidden md:hidden lg:block">
-        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037804/Mobile/mobile-selection_hjuo1e.png' alt='' width={1460} height={600} />
-          </div>
-
-          <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692479938/BAM/mobile-selection-sized_b7krdw.png' alt='' width={570} height={4400} />
-          </div>
-
-        </section>
-
-
-        <section className="mt-24 mx-4">
-          <h2 className="mt-12 text-2xl font-bold dark:text-white">
-            Centralized Searching - Mobile
-          </h2>
-        </section>
-
-
-        <section className="mt-16 grid grid-cols-1 mx-4">
-        <div className="hidden sm:hidden md:hidden lg:block">
-        <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1691037805/Mobile/mobile-search_wsfbxi.png' alt='' width={1460} height={600} />
-          </div>
-
-          
-          <div className="block sm:hidden md:hidden lg:hidden">
-          <Image src='https://res.cloudinary.com/ddirkf5xq/image/upload/v1692480143/BAM/mobile-search-sized_gwluga.png' alt='' width={570} height={4400} />
-          </div>
-          
-        </section>
-
-
-        <SectionSingle
-          title={'Atomic React Component Library'}
-          rightImage={false}
-          description={
-            'The byproduct was the development of a comprehensive React Storybook. All components adhere to the principles of atomic design.'
-          }
-          topLeft={componentLibrary}
-        ></SectionSingle>
-
     <motion.section className="mt-32 grid grid-flow-row mx-4 border-t-4 border-indigo-500 lg:grid-cols-3 lg:gap-12"
            initial="hide"
            whileInView="show"
@@ -443,7 +379,7 @@ easier with the new tool.””`}  </p>
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-2xl text-neutral-400 dark:text-white">
-            {`We received an overwhelmingly positive response from the community of data engineers and sector data analysts, which has been truly fantastic.`}
+            {`Users can now submit, track, and manage network requests with unprecedented ease, eliminating unnecessary complexities and reducing the time required for each operation.`}
 
             </p>
           </div>
@@ -458,33 +394,33 @@ easier with the new tool.””`}  </p>
            <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
               <h2 className="text-8xl mb-8 font-bold dark:text-white">
-                50%
-              </h2>
-            </div>
-            <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              {`Elevated Data Experience: A 50% Surge in Our Diverse Dataset Selection!`}
-            </p>
-          </div>
-
-          <div className="col-span-1 mb-4">
-            <div className='flex justify-center'>
-              <h2 className="text-8xl mb-8 font-bold dark:text-white">
                 20%
               </h2>
             </div>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              {`Amplified user engagement experience with a remarkable 20% increase.`}
+              {`Margin of error rate dropped by 20%.`}
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
               <h2 className="text-8xl mb-8 font-bold dark:text-white">
-                3000+
+              15%
               </h2>
             </div>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-              {`Our platform effortlessly manages, organizes, and shares over 3,000 datasets.`}
+              {`Overall NPS score increased by 15%.`}
+            </p>
+          </div>
+
+          <div className="col-span-1 mb-4">
+            <div className='flex justify-center'>
+              <h2 className="text-8xl mb-8 font-bold dark:text-white">
+                1000
+              </h2>
+            </div>
+            <p className="text-lg text-neutral-400 dark:text-neutral-400">
+              {`The new platform effortlessly manages 1,000 network requests every week.`}
             </p>
           </div>
         </motion.section>

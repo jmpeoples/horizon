@@ -117,7 +117,6 @@ export default function ExpediaCNRQ() {
           Traveling with users
             </h2>
             <p className="mt-12 text-lg text-neutral-400 text-center dark:text-neutral-400">
-              {`The Goal:Simplify the connectivity process.`}<br/>
  {`Firewall connectivity requests are a requirement to opening connections between environments. The firewalls and zone separation architecture improve Expedia's security stance and ensure continued compliance against PCI requirements. At Expedia the customer is responsible for identifying which connections their service requires and requesting them via the CNRQ process highlighted in this document. The CNRQ process was designed to provide the business and application teams with a method to perform firewall requests.`}
           </p>
         </section>
@@ -127,7 +126,7 @@ export default function ExpediaCNRQ() {
           <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
             <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695306807/BAM/SectorDataAnalysis_Profile_rstvt5.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997998/CNRQ/headshot_CNRQ_2_otn8pn.png"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
@@ -135,17 +134,17 @@ export default function ExpediaCNRQ() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Sector Data Analyst
+            Software Engineer
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            {`“Make clients lives easier,with anything that deals with data”`}
+            {`“Who follows up on firewall requests?”`}
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
             <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695307592/BAM/DataSourcing_Profile_qgdxvr.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997998/CNRQ/headshot_CNRQ_3_yojpsf.png"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
@@ -153,17 +152,17 @@ export default function ExpediaCNRQ() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-              Data Sourcing
+              DevOps Engineer
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            {`“How can I help users find data?”`}
+            {`“How do I edit a request after submission?”`}
             </p>
           </div>
 
           <div className="col-span-1 mb-4">
             <div className='flex justify-center'>
             <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695307592/BAM/InvestmentData_Profile_bdglyi.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997997/CNRQ/headshot_CNRQ_1_cnkhq6.png"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={150}
@@ -171,10 +170,10 @@ export default function ExpediaCNRQ() {
             />
             </div>
             <h2 className="text-lg font-bold mt-8 dark:text-white">
-            Investment Data Analyst
+            Senior Systems Engineer
             </h2>
             <p className="text-lg text-neutral-400 dark:text-neutral-400">
-            {`“How can I help users understand the data they collect?”`}
+            {`“How do I make sure my IP Ranges are safe for new connections?”`}
             </p>
           </div>        
         </section>
@@ -184,7 +183,7 @@ export default function ExpediaCNRQ() {
              Goals
             </h2>
             <p className="mt-12 text-2xl text-neutral-400 text-center dark:text-white">
-            {`We established fresh objectives and guiding principles aimed at addressing a central question: "How can we optimize the delivery of the most valuable and diverse dataset collection to our users?"`}
+            {`Streamline the connectivity request process for a Virtual Private Cloud center`}
           </p>
         </section>
 

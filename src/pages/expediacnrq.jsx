@@ -38,7 +38,7 @@ export default function ExpediaCNRQ() {
         </motion.p>
         <section className='flex justify-center items-center mt-24'>
         <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1695247718/Catalog-Search-Home-upgraded_cnsyzl.png"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997812/CNRQ/Portfolio-Intro_thbhvy.png"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={800}
@@ -58,26 +58,18 @@ export default function ExpediaCNRQ() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-              Balyasny portfolio managers, sector data analysts, data managers
-              need to know what data is available, where it lives, and how to
-              access it quickly. The systems and process require knowledge from
-              CRMs, accounting systems, cloud vendor documentation buckets, and
-              third party APIs. Balyasny needed to facilitate portfolio managers
-              and analyst to query in-house datasets and quickly generate new ideas.
+               {`After brand technologists create a Virtual Private Cloud(VPC) they require a simplified workflow to expose it existing data centers. Several firewall rules may prevent the service from connecting without the users knowledge.`}
             </p>
             <div className="grid grid-cols-2">
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">My Role</li>
-                <li>Lead Designer</li>
                 <li>Product designer</li>
                 <li>Software Developer</li>
-                <li>Figma Prototype</li>
-                <li>Minimum viable product</li>
               </ul>
 
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
                 <li className="font-bold">Year</li>
-                <li>2020 - 2023</li>
+                <li>2019 - 2020</li>
               </ul>
             </div>
           </div>
@@ -96,20 +88,28 @@ export default function ExpediaCNRQ() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            {`The data team presently manages multiple separate spreadsheets that encompass information about pipeline vendors, active vendors, and other valuable metadata such as cost, descriptions, and rankings. Ideally, we aim to consolidate and centralize this data in a single location to serve the broader data intelligence team and select individuals more effectively.`}
+            {`Technologists at Expedia are often unsure of the protocol for handling firewall connection requests, given that they haven't been assigned a corresponding ticket. How do Expedians request, track, and manage requests for IP ranges to datacenters?`}
 
             </p>
           </div>
+
+          <div className="col-span-3 flex justify-center items-center">
+            <h2 className="mt-12 text-xl font-bold dark:text-white">
+            The Problem
+            </h2>
+            </div>
         </motion.section>
 
         <section className='flex justify-center items-center mt-24'>
+          
         <Image
-              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699458427/BAM/Solution_Gif_j3yh4t.gif"}
+              src={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997986/CNRQ/CNRQ_Problem_Gif_zu7pcy.gif"}
               alt=""
               className="rounded-xl border-2 border-opacity-0 border-neutral-200 dark:border-neutral-700 dark:border-opacity-0"
               width={800}
               height={494}
             />
+
         </section>
 
         <section className='col-span-1'>

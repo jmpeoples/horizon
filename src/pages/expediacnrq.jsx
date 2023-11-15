@@ -262,7 +262,7 @@ export default function ExpediaCNRQ() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            I found that it was difficult for users to understand what information was necessary for the Network Services teams to success complete a firewall protocol. 
+            I found that it was difficult for users to understand what information was necessary for the Network Service team to successfully complete a firewall change request. 
             </p>
           </div>
 

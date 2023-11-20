@@ -139,7 +139,7 @@ export default function Home() {
         ></Section>
          
         <SectionSingle
-          title={'Firewall Requests'}
+          title={'Expedia Firewall'}
           rightImage={true}
           isLinkActive={true}
           pageLink={'/expediacnrq'}
@@ -151,7 +151,7 @@ export default function Home() {
 
         
          <Section
-          title={'Expanding Expedia'}
+          title={'Expedia Infrastructure'}
           description={
             'The ECP team needed to provide a unified method for employees, vendors and third-party call center agents to configure and request technical services.'
           }

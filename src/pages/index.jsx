@@ -11,6 +11,7 @@ import {
   InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
+  YouTubeIcon
 } from '@/components/SocialIcons'
 import { formatDate } from '@/lib/formatDate'
 import { Section } from '@/components/Section'
@@ -113,6 +114,11 @@ export default function Home() {
               href="https://www.linkedin.com/in/josiahpeoples/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+            />
+             <SocialLink
+              href="https://www.youtube.com/watch?v=IX8zNTJSgdo"
+              aria-label="Follow on YouTube"
+              icon={YouTubeIcon}
             />
           </div>
         </motion.div>

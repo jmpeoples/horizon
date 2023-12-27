@@ -24,7 +24,7 @@ import Contact from '@/components/Contact'
 import mixpanel from 'mixpanel-browser';
 
 // Replace YOUR_TOKEN with your Project Token
-mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', {debug: true});
+mixpanel.init('9f2c9cd3840ebdac0cb75a0736fe514c', { debug: true });
 
 
 mixpanel.track('Homepage Visit', {
@@ -98,12 +98,12 @@ export default function Home() {
           design & tech.
         </motion.p>
         <motion.div className="mx-4 max-w-2xl"
-           initial="hide"
-           whileInView="show"
-           exit="exit"
-           variants={introHeaderVariants}
+          initial="hide"
+          whileInView="show"
+          exit="exit"
+          variants={introHeaderVariants}
         >
-          
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://github.com/jmpeoples?tab=repositories"
@@ -115,10 +115,15 @@ export default function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
-             <SocialLink
+            <SocialLink
               href="https://www.youtube.com/watch?v=IX8zNTJSgdo"
               aria-label="Follow on YouTube"
               icon={YouTubeIcon}
+            />
+            <SocialLink
+              href="https://twitter.com/josiah_one"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
             />
           </div>
         </motion.div>
@@ -129,7 +134,7 @@ export default function Home() {
           exit="exit"
           variants={introWelcomeVariants}
         >
-         <h3 className="mt-16 mb-0 text-sm font-bold dark:text-white lg:mx-0 lg:text-sm">Selected Works</h3>
+          <h3 className="mt-16 mb-0 text-sm font-bold dark:text-white lg:mx-0 lg:text-sm">Selected Works</h3>
         </motion.div>
 
         <Section
@@ -143,7 +148,7 @@ export default function Home() {
           bottomRight={'https://res.cloudinary.com/ddirkf5xq/image/upload/v1691038417/Mobile/catalog-works-4-mobile_amjyu1.png'}
           pageLink={'/datacatalog'}
         ></Section>
-         
+
         <SectionSingle
           title={'Expedia Firewall'}
           rightImage={true}
@@ -155,8 +160,8 @@ export default function Home() {
           topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1699997812/CNRQ/Portfolio-Intro_thbhvy.png"}
         ></SectionSingle>
 
-        
-         <Section
+
+        <Section
           title={'Expedia Infrastructure'}
           description={
             'The ECP team needed to provide a unified method for employees, vendors and third-party call center agents to configure and request technical services.'
@@ -175,17 +180,17 @@ export default function Home() {
           }
           pageLink={'/expediaservice'}
         ></Section>
-         <div className="hidden sm:hidden md:hidden lg:block">
+        <div className="hidden sm:hidden md:hidden lg:block">
         </div>
 
         <div className="block sm:hidden md:hidden lg:hidden">
-        <SectionSingle
-          title={'Bustr'}
-          description={
-            'Coming Soon. Shop and search for homes by closing costs.'
-          }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238522/Bustr/Project_Bustr_all_Screens_small_device_znjrvb.gif"}
-        ></SectionSingle>
+          <SectionSingle
+            title={'Bustr'}
+            description={
+              'Coming Soon. Shop and search for homes by closing costs.'
+            }
+            topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238522/Bustr/Project_Bustr_all_Screens_small_device_znjrvb.gif"}
+          ></SectionSingle>
 
         </div>
         <Section
@@ -207,7 +212,7 @@ export default function Home() {
           }
           pageLink={'/flexngate'}
         ></Section>
-         <SectionSingle
+        <SectionSingle
           title={'Bustr'}
           rightImage={true}
           description={
@@ -215,7 +220,7 @@ export default function Home() {
           }
           topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
         ></SectionSingle>
-          <Section
+        <Section
           title={'Game Develpoment'}
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
@@ -245,7 +250,7 @@ export function HomeOrigin({ articles }) {
     <>
       <Head>
         <title>
-         
+
         </title>
         <meta
           name="description"

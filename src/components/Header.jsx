@@ -299,7 +299,7 @@ export function Header() {
     document.getElementById(collapseId).classList.toggle('flex')
   }
   return (
-    <>
+    /*<>
       <nav className="bg-white dark:bg-black sticky top-0">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <Link href="/" className="flex items-center">
@@ -434,7 +434,8 @@ export function Header() {
           </div>
         </div>
       </nav>
-    </>
+    </>*/
+    <> </>
   )
 }
 

@@ -94,8 +94,7 @@ export default function Home() {
           variants={introHeaderVariants}
         >
           {' '}
-          I’m a designer and a developer. Let me help you bridge the gap between
-          design & tech.
+          I’m a designer and a developer. Currently building products at{`(Coming Soon).`}
         </motion.p>
         <motion.div className="mx-4 max-w-2xl"
            initial="hide"
@@ -122,6 +121,7 @@ export default function Home() {
             />
           </div>
         </motion.div>
+    {/** 
         <motion.div
           className="flex flex-col items-center mx-4 mt-8 rounded-full px-4 py-2 text-lg text-white lg:mx-0"
           initial="hide"
@@ -235,53 +235,10 @@ export default function Home() {
           pageLink={'/actionrpg'}
         ></Section>
         <Contact />
+         */}
       </Container>
+      
     </>
-  )
-}
-
-export function HomeOrigin({ articles }) {
-  return (
-    <>
-      <Head>
-        <title>
-         
-        </title>
-        <meta
-          name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
-        />
-      </Head>
-      <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m a designer and a developer. Let me help you bridge the gap
-            between design and tech.
-          </h1>
-          <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://linkedin.com"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
-          </div>
-        </div>
-      </Container>
-    </>
+    
   )
 }

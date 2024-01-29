@@ -94,7 +94,7 @@ export default function Home() {
           variants={introHeaderVariants}
         >
           {' '}
-          I’m a designer and a developer. Currently building products at{`(Coming Soon).`}
+          I’m a designer and a developer. Currently building products at {`H-E-B®.`}
         </motion.p>
         <motion.div className="mx-4 max-w-2xl"
           initial="hide"

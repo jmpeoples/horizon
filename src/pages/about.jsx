@@ -96,6 +96,8 @@ export default function About() {
           <div className="col-span-3">
             <div className="flex justify-center">
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
+              <li className="font-bold flex justify-center">2024-Current</li>
+              <li className="flex justify-center">Product Designer H-E-B</li>
                 <li className="font-bold flex justify-center">2020-2023</li>
                 <li className="flex justify-center">Product Designer at Balyasny Asset Management</li>
                 <li className="font-bold flex justify-center">2018-2020</li>

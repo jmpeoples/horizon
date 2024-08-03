@@ -163,7 +163,7 @@ export default function Actionrpg() {
             <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
               <li className="font-bold">Prototype</li>
               <li>Block out animation</li>
-              <li>Block out floors</li>
+              <li>Block out levels</li>
             </ul>
             <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
               <li className="font-bold">Test & Refine</li>

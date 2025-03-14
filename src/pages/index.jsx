@@ -182,17 +182,6 @@ export default function Home() {
         ></Section>
         <div className="hidden sm:hidden md:hidden lg:block">
         </div>
-
-        <div className="block sm:hidden md:hidden lg:hidden">
-          <SectionSingle
-            title={'Bustr'}
-            description={
-              'Coming Soon. Shop and search for homes by closing costs.'
-            }
-            topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238522/Bustr/Project_Bustr_all_Screens_small_device_znjrvb.gif"}
-          ></SectionSingle>
-
-        </div>
         <Section
           title={'Scrap Tracker'}
           description={
@@ -212,15 +201,7 @@ export default function Home() {
           }
           pageLink={'/flexngate'}
         ></Section>
-        <SectionSingle
-          title={'Bustr'}
-          rightImage={true}
-          description={
-            'Revolutionize the way homebuyers navigate the closing process and timeline. Add transparency by shopping for homes by closing costs. Coming soon.'
-          }
-          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
-        ></SectionSingle>
-        <Section
+         <Section
           title={'Game Develpoment'}
           description={
             'Explore a vibrant and beautiful world intertwined with dangers from an ancient war. Shadow of Mammon is a fast paced Action RPG inspired by modern jrpgs.'
@@ -239,6 +220,24 @@ export default function Home() {
           }
           pageLink={'/actionrpg'}
         ></Section>
+        <SectionSingle
+          title={'Bustr'}
+          rightImage={true}
+          description={
+            'Revolutionize the way homebuyers navigate the closing process and timeline. Add transparency by shopping for homes by closing costs. Coming soon.'
+          }
+          topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238558/Bustr/Project_Bustr_all_Screens_lbm510.gif"}
+        ></SectionSingle>
+          <div className="block sm:hidden md:hidden lg:hidden">
+          <SectionSingle
+            title={''}
+            description={
+              ''
+            }
+            topLeft={"https://res.cloudinary.com/ddirkf5xq/image/upload/v1693238522/Bustr/Project_Bustr_all_Screens_small_device_znjrvb.gif"}
+          ></SectionSingle>
+
+        </div>
         <Contact />
       </Container>
     </>

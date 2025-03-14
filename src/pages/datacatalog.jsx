@@ -58,7 +58,12 @@ export default function Datacatalog() {
           </div>
           <div className="col-span-2">
             <p className="mt-12 text-lg text-neutral-400 dark:text-neutral-400">
-            Balyasny's portfolio managers, sector data analysts, and data managers depend on fast, reliable access to trading data. Understanding what data is available, where it resides, and how to retrieve it efficiently is crucial. Accessing a complete dataset often requires navigating multiple sources — including CRMs, accounting systems, cloud storage, and third-party APIs. To streamline this process, Balyasny needed a solution that empowers portfolio managers and analysts to efficiently query in-house datasets and uncover insights in a one comprehensive source.
+            Balyasny portfolio managers, sector data analysts, and data managers depend on fast, 
+            reliable access to trading data. Understanding what data is available, where it resides, 
+            and how to retrieve it efficiently is crucial. Accessing a complete dataset often requires 
+            navigating multiple sources — including CRMs, accounting systems, cloud storage, and third-party APIs. 
+            To streamline this process, Balyasny needed a solution that empowers portfolio managers and analysts to 
+            efficiently query in-house datasets and uncover insights in a one comprehensive source.
             </p>
             <div className="grid grid-cols-2">
               <ul className="mt-12 list-none text-lg text-neutral-400 dark:text-neutral-400">
